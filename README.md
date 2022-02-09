@@ -8,4 +8,7 @@
 #### New terms
 - X-ray: a 2D imaging technique that projects a type of radiation called x-rays down at the body from a single direction to capture a single image.
 - Ultrasound: a 2D imaging technique that uses high-frequency sound waves to generate images.
+- Computed Tomography (CT): a 3D imaging technique that emits x-rays from many different angles around the human body to capture more detail from more different angles.
+- 
+
 
