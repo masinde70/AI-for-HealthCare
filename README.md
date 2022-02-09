@@ -10,7 +10,10 @@
 - Ultrasound: a 2D imaging technique that uses high-frequency sound waves to generate images.
 - Computed Tomography (CT): a 3D imaging technique that emits x-rays from many different angles around the human body to capture more detail from more different angles.
 - Magnetic Resonance Imaging (MRI): a 3D imaging technique that uses strong magnetic fields and radio waves to create images of areas of the body from all different angles.
-- 
+- 2D imaging: an imaging technique that pictures are taken from a single angle.
+- 3D imaging: an imaging technique that pictures are taken from different angles to create a volume of images.
+
+
 
 
 
