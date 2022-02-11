@@ -22,6 +22,10 @@
     - Need imaging to verify
     - e.g diagnosing brain tumor
 - Screening
+  * Nothing acutely wrong with the patient 
+  * Patient in risk group for particular diseases
+  * Imaging regularly for early detection
+  * e.g regular screening for colonscopies because of family history 
 
 
 
