@@ -13,6 +13,8 @@
 - 2D imaging: an imaging technique that pictures are taken from a single angle.
 - 3D imaging: an imaging technique that pictures are taken from different angles to create a volume of images.
 
+##### Medical Imaging Workflow
+
 
 
 
