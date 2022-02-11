@@ -14,6 +14,8 @@
 - 3D imaging: an imaging technique that pictures are taken from different angles to create a volume of images.
 
 ##### Medical Imaging Workflow
+- Picturec Archiving and Communication System (PACS)
+  * Every Imaging center and hospital
 
 
 
