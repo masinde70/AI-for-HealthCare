@@ -17,7 +17,7 @@
 - Picturec Archiving and Communication System (PACS)
   * Every Imaging center and hospital have PACS. These systems allows for all medical imaging to be stored in the hospital's servers and transferred to different departments  throughout the hospital.
 - Diagnostic Imaging 
- * In diagnostic situations, a clinitian orders an imaging study 
+  * In diagnostic situations, a clinitian orders an imaging study 
 
 
 
