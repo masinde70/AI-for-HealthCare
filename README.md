@@ -26,7 +26,7 @@ Screening studies are performed on populations of individuals who fall into risk
   * Nothing acutely wrong with the patient 
   * Patient in risk group for particular diseases
   * Imaging regularly for early detection
-  * e.g regular screening for colonscopies because of family history 
+  * e.g regular screening for colonscopies because of family history.
   
 
 
