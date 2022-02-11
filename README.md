@@ -18,6 +18,9 @@
   * Every Imaging center and hospital have PACS. These systems allows for all medical imaging to be stored in the hospital's servers and transferred to different departments  throughout the hospital.
 - Diagnostic Imaging 
   * In diagnostic situations, a clinitian orders an imaging study because they believe that a disease may be present based on the patient's symptoms. Diagnostic imaging can be performed in emergency settings as well as non-emergency settings.
+    - Clinical believes something is wrong with the patient 
+    - Need imaging to verify
+    - e.g diagnosing brain tumor
 
 
 
