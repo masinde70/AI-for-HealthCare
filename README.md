@@ -22,10 +22,12 @@
     - Need imaging to verify
     - e.g diagnosing brain tumor
 - Screening
+Screening studies are performed on populations of individuals who fall into risk groups for certain diseases. These tend to be diseases that are relatively common, have serious consequences, but also have the potential of being reversed if detected and treated early. For example, individuals who are above a certain age with a long smoking history are candidates for lung cancer screening which is performed using x-rays on an annual basis.
   * Nothing acutely wrong with the patient 
   * Patient in risk group for particular diseases
   * Imaging regularly for early detection
   * e.g regular screening for colonscopies because of family history 
+  
 
 
 
