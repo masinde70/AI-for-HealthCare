@@ -21,6 +21,7 @@
     - Clinical believes something is wrong with the patient 
     - Need imaging to verify
     - e.g diagnosing brain tumor
+  * Screening
 
 
 
