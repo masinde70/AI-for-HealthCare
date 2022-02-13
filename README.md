@@ -32,7 +32,7 @@ Screening studies are performed on populations of individuals who fall into risk
  ### Application of Algorithms 
  * Track progression growth of tumour overtime -> Segmentation 
  * Identify the area of the lung where the fluid is -> Localization
- * 
+ * Determine whether a tumor is malignant or benign -> Classification 
  
   
 
