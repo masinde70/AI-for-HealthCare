@@ -27,6 +27,12 @@ Screening studies are performed on populations of individuals who fall into risk
   * Patient in risk group for particular diseases
   * Imaging regularly for early detection
   * e.g regular screening for colonscopies because of family history.
+ 
+ 
+ ### Application of Algorithms 
+ * Track progression growth of tumour overtime -> Segmentation 
+ *  
+ 
   
 
 
