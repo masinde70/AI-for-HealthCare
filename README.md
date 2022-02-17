@@ -14,7 +14,7 @@
 - 3D imaging: an imaging technique that pictures are taken from different angles to create a volume of images.
 
 ##### Medical Imaging Workflow
-- Picturec Archiving and Communication System (PACS)
+- Picture Archiving and Communication System (PACS)
   * Every Imaging center and hospital have PACS. These systems allows for all medical imaging to be stored in the hospital's servers and transferred to different departments  throughout the hospital.
 - Diagnostic Imaging 
   * In diagnostic situations, a clinitian orders an imaging study because they believe that a disease may be present based on the patient's symptoms. Diagnostic imaging can be performed in emergency settings as well as non-emergency settings.
