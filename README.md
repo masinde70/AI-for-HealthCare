@@ -46,6 +46,13 @@ Screening studies are performed on populations of individuals who fall into risk
  * Laplace Smoothing
  * Tokenization
  * Featurization
+ * Lemmatization
+ * Stemming 
+ * Stop Word
+ * Vectorizer
+ * Featurization
+    The processin of transforming raw inputs into somethinga model can perform training and prediction on.
+ 
  
  
   
