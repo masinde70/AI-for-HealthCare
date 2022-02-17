@@ -34,6 +34,14 @@ Screening studies are performed on populations of individuals who fall into risk
  * Identify the area of the lung where the fluid is -> Localization
  * Determine whether a tumor is malignant or benign -> Classification 
  
+ ## key points
+ * Model
+ * Heuristic
+ * Bernoul Distribution
+ * Prior
+ * Likelihood
+ * Evidence
+ 
   
 
 
