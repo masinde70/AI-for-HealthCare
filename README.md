@@ -50,6 +50,7 @@ Screening studies are performed on populations of individuals who fall into risk
  * Stemming 
  * Stop Word
  * Vectorizer
+   Used in a step featurizing. It transforms some input into something else. One example is binary vectorizer which transforms tokenized messages into a binary vector indicating which items in the vocabulary appear in the message
  * Featurization
     The processin of transforming raw inputs into somethinga model can perform training and prediction on.
  
