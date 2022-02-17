@@ -41,6 +41,12 @@ Screening studies are performed on populations of individuals who fall into risk
  * Prior
  * Likelihood
  * Evidence
+ * Posterior
+ * Vocabulary 
+ * Laplace Smoothing
+ * Tokenization
+ * Featurization
+ 
  
   
 
