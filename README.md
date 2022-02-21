@@ -69,7 +69,17 @@ Screening studies are performed on populations of individuals who fall into risk
  
  
   
-
+Glossary
+**X-Ray:** Type of 2D imaging that uses a type of radiation to take pictures of the body's internal structures
+**Computed Tomography:** Type of 3D imaging that uses x-rays to take pictures at multiple angles of the body's internal structures
+**Magnetic Resonance Imaging:** Type of 3D imaging that uses radio waves and strong magnetic fields at multiple angles to take pictures of the body's internal structures
+**Mammogram:** A type of 2D x-ray that is specialized for breast imaging
+**Digital Pathology:** A type of 2D imaging that involves the digitization of microscopy images of cell-level biological material
+**Radiologist:** A specialized type of clinician who is trained to read medical imaging data
+**PACS:** Picture archiving and communication system, used for storing and viewing medical images within and across hospitals
+**Screening:** A type of test that is performed on individuals who are in a risk group for a given disease
+**Sensitivity:** Proportion of accurately identified positive cases that a test returns
+**Specificity:** Proportion of accurately identified negative cases that a test returns
 
 
 
