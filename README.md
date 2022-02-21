@@ -83,6 +83,8 @@ Screening studies are performed on populations of individuals who fall into risk
 
 
 ### Medical Image Exploratory Data Analysis
+#### DICOM
+DICOM "Digital Imaging and Communications in Medicine", which is the standard for the communication and management of medical imaging information and related data.
 
 
 
