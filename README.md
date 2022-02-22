@@ -79,7 +79,29 @@ The hospital will likely be the purchaser of your algorithm, and they are a key 
  
  
   
+## Glossary
+* **X-Ray:** Type of 2D imaging that uses a type of radiation to take pictures of the body's internal structures.
+* **Computed Tomography:** Type of 3D imaging that uses x-rays to take pictures at multiple angles of the body's internal structures.
+* **Magnetic Resonance Imaging:** Type of 3D imaging that uses radio waves and strong magnetic fields at multiple angles to take pictures of the body's internal structures
+* **Mammogram:** A type of 2D x-ray that is specialized for breast imaging
+* **Digital Pathology:** A type of 2D imaging that involves the digitization of microscopy images of cell-level biological material
+* **Radiologist:** A specialized type of clinician who is trained to read medical imaging data
+* **PACS:** Picture archiving and communication system, used for storing and viewing medical images within and across hospitals
+* **Screening:** A type of test that is performed on individuals who are in a risk group for a given disease
+* **Sensitivity:** Proportion of accurately identified positive cases that a test returns
+* **Specificity:** Proportion of accurately identified negative cases that a test returns
 
 
+### Medical Image Exploratory Data Analysis
+#### DICOM
+DICOM "Digital Imaging and Communications in Medicine", which is the standard for the communication and management of medical imaging information and related data.
+* DICOM ensures the "interoperability" of medical imaging systems by making it easier to perform the following actions on medical images:
+  * Produce, Store, Display, Send, Query, Process, Retrieve, Print
+* By using DICOM, one can get derived structured documents and manage the related workflow more conveniently.
+* DICOM files are a medical imaging file that is in the format that conforms to the DICOM standard.
+* A DICOM file contains information about the imaging acquisition method, the actual medical images, and patient information. It has a header component that contains information about the acquired image and an image component that is a set of pixel data representing the actual images
+* Protected Health Information (PHI) is part of DICOM and clinical data and radiologist report are not part of DICOM
+* DICOM studies and series
+With 2D imaging, a single 2D image is known as a single DICOM series. All image series combined comprise a study of the patient, known as a DICOM study.
 
 
