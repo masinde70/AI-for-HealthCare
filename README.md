@@ -65,6 +65,16 @@ Screening studies are performed on populations of individuals who fall into risk
   #### Regulatory Stakeholders
   
   The main regulatory stakeholder in the medical imaging world is the Food and Drug Administration (FDA). The FDA treats AI algorithms as medical devices. Medical devices are broken down into three classes by the FDA, Class I, Class II, and Class III, based on their potential risks present to the patient. A device's class dictates the safety controls, which in turn dictates which regulatory pathway they must go down. The two main regulatory pathways for medical devices are 510(k) and Pre-market Approval (PMA). Lower risk devices (Classes I & II) usually take a 501(k) submission pathway. Higher risk devices and algorithms (Class III) must go through PMA.
+  
+  
+  ## Note!
+  The patient is always a stakeholder when we are developing algorithms to read clinical imaging studies.
+
+This tool will presumably help a radiologist to more accurately define the boundaries of a nodule and how they change over time, meaning it will part of the radiologist's workflow and therefore they are a stakeholder.
+
+The software developer who creates this algorithm will be a key stakeholder as they will be responsible for describing the algorithm to the FDA.
+
+The hospital will likely be the purchaser of your algorithm, and they are a key stakeholder in that the algorithm must be beneficial to them financially in order to be adopted into their radiology practice.
  
  
  
