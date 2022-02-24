@@ -105,3 +105,8 @@ DICOM "Digital Imaging and Communications in Medicine", which is the standard fo
 With 2D imaging, a single 2D image is known as a single DICOM series. All image series combined comprise a study of the patient, known as a DICOM study.
 
 
+For efficient algorithm training, the best practice is to pre-extract all data from DICOM headers into a dataframe.
+
+DICOM header has some other applications besides training models. It can be used to mitigate the risks of the algorithm. It can also be used to optimize image processing workflow.
+
+
