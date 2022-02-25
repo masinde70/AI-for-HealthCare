@@ -109,4 +109,18 @@ For efficient algorithm training, the best practice is to pre-extract all data f
 
 DICOM header has some other applications besides training models. It can be used to mitigate the risks of the algorithm. It can also be used to optimize image processing workflow.
 
+Summary
+Some metadata may come from the DICOM headers, patient history, and image labels. Once we have all of a dataset's metadata stored in a single place, we'll then want to explore data features.
+
+Histograms
+Histograms help us look at distributions of single variables. Sometimes we only want to look at distributions within a single class of our data.
+
+Scatterplots
+Scatterplots are useful for assessing relationships between two variables.
+
+Pearson Correlation Coefficient
+Pearson Correlation Coefficient measures how two variables are linearly related. The value ranges from -1 to 1. A value of 1 or -1 means the two variables are perfectly linearly related. A value of 0 implies there is no linear relationship between the two variables.
+
+Co-Occurrence Matrices
+Co-Occurrence Matrices are useful for assessing how frequently different classifications co-occur together.
 
