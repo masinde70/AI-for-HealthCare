@@ -131,11 +131,18 @@ The first step of transforming microscopy into a digital image is to get the cel
 Once images are digitized, they can be processed with ML in the same way as you would with the pixel data extracted from DICOM.
 
 ### Glossary
-**DICOM:** Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data
-**Image artifact:** An object or distortion in an image that reduces its quality
-**Foreign body:** An object in a medical image that is not biological material from the patient, such as a pacemaker or wire
-**Metadata:** A set of data that describes another set of data
-**Pathologist:** A special type of clinician who reads and interprets microscopy and digital pathology data
-**intensity profile:** the distribution of all pixels' intensity values that comprise an image
-**PHI:** any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
+**DICOM:** 
+Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data
+**Image artifact:** 
+An object or distortion in an image that reduces its quality
+**Foreign body:**
+An object in a medical image that is not biological material from the patient, such as a pacemaker or wire
+**Metadata:**
+A set of data that describes another set of data
+**Pathologist:**
+A special type of clinician who reads and interprets microscopy and digital pathology data
+**intensity profile:**
+the distribution of all pixels' intensity values that comprise an image
+**PHI:**
+any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
 
