@@ -109,20 +109,20 @@ For efficient algorithm training, the best practice is to pre-extract all data f
 
 DICOM header has some other applications besides training models. It can be used to mitigate the risks of the algorithm. It can also be used to optimize image processing workflow.
 
-**Summary**
-Some metadata may come from the DICOM headers, patient history, and image labels. Once we have all of a dataset's metadata stored in a single place, we'll then want to explore data features.
+### **Summary**
+    Some metadata may come from the DICOM headers, patient history, and image labels. Once we have all of a dataset's metadata stored in a single place, we'll then want to explore data features.
 
-**Histograms**
-Histograms help us look at distributions of single variables. Sometimes we only want to look at distributions within a single class of our data.
+#### **Histograms**
+    Histograms help us look at distributions of single variables. Sometimes we only want to look at distributions within a single class of our data.
 
-**Scatterplots**
-Scatterplots are useful for assessing relationships between two variables.
+#### **Scatterplots**
+     Scatterplots are useful for assessing relationships between two variables.
 
-**Pearson Correlation Coefficient**
-Pearson Correlation Coefficient measures how two variables are linearly related. The value ranges from -1 to 1. A value of 1 or -1 means the two variables are perfectly linearly related. A value of 0 implies there is no linear relationship between the two variables.
+#### **Pearson Correlation Coefficient**
+    Pearson Correlation Coefficient measures how two variables are linearly related. The value ranges from -1 to 1. A value of 1 or -1 means the two variables are perfectly linearly related. A value of 0 implies there is no linear relationship between the two variables.
 
-**Co-Occurrence Matrices**
-Co-Occurrence Matrices are useful for assessing how frequently different classifications co-occur together.
+####  **Co-Occurrence Matrices**
+    Co-Occurrence Matrices are useful for assessing how frequently different classifications co-occur together.
 
 Not all 2D medical images are stored as a DICOM. Microscopy images are not stored in DICOM since they do not come from a digital machine. Instead, they are biological data and come from smeared physical cells from patients.
 
@@ -131,18 +131,18 @@ The first step of transforming microscopy into a digital image is to get the cel
 Once images are digitized, they can be processed with ML in the same way as you would with the pixel data extracted from DICOM.
 
 ### Glossary
-**DICOM:** 
-Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data
-**Image artifact:** 
-An object or distortion in an image that reduces its quality
-**Foreign body:**
-An object in a medical image that is not biological material from the patient, such as a pacemaker or wire
-**Metadata:**
-A set of data that describes another set of data
-**Pathologist:**
-A special type of clinician who reads and interprets microscopy and digital pathology data
-**intensity profile:**
-the distribution of all pixels' intensity values that comprise an image
-**PHI:**
-any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
+#### **DICOM:** 
+     Digital Imaging and Communications in Medicine (DICOM) is the standard for the communication and management of medical imaging information and related data
+#### **Image artifact:** 
+    An object or distortion in an image that reduces its quality
+### **Foreign body:**
+    An object in a medical image that is not biological material from the patient, such as a pacemaker or wire
+### **Metadata:**
+    A set of data that describes another set of data
+### **Pathologist:**
+    A special type of clinician who reads and interprets microscopy and digital pathology data
+#### **intensity profile:**
+    the distribution of all pixels' intensity values that comprise an image
+### **PHI:**
+    any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
 
