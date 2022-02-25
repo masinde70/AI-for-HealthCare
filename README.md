@@ -124,3 +124,9 @@ Pearson Correlation Coefficient measures how two variables are linearly related.
 Co-Occurrence Matrices
 Co-Occurrence Matrices are useful for assessing how frequently different classifications co-occur together.
 
+Not all 2D medical images are stored as a DICOM. Microscopy images are not stored in DICOM since they do not come from a digital machine. Instead, they are biological data and come from smeared physical cells from patients.
+
+The first step of transforming microscopy into a digital image is to get the cell sample from a patient. Then cells are dyed into different colors based on their structure and viewed by a microscope. The microscopy data is then captured by a camera to form a digital image. This transformation technique is called digital pathology.
+
+Once images are digitized, they can be processed with ML in the same way as you would with the pixel data extracted from DICOM.
+
