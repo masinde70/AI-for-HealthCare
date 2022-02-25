@@ -121,7 +121,7 @@ Scatterplots are useful for assessing relationships between two variables.
 **Pearson Correlation Coefficient**
 Pearson Correlation Coefficient measures how two variables are linearly related. The value ranges from -1 to 1. A value of 1 or -1 means the two variables are perfectly linearly related. A value of 0 implies there is no linear relationship between the two variables.
 
-**Co-Occurrence Matrices
+**Co-Occurrence Matrices**
 Co-Occurrence Matrices are useful for assessing how frequently different classifications co-occur together.
 
 Not all 2D medical images are stored as a DICOM. Microscopy images are not stored in DICOM since they do not come from a digital machine. Instead, they are biological data and come from smeared physical cells from patients.
