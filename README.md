@@ -143,6 +143,22 @@ Once images are digitized, they can be processed with ML in the same way as you 
     A special type of clinician who reads and interprets microscopy and digital pathology data
 #### **intensity profile:**
     the distribution of all pixels' intensity values that comprise an image
-### **PHI:**
-    any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
+### PHI:
+   any individually identifiable health information, including demographic data, insurance information, and other information used to identify a patient
+    
+### ML vs. DL
+The biggest difference between ML and DL is the concept of feature selection. Classical machine learning algorithms require predefined features in images. And, it takes up a lot of time and effort to design features. When deep learning came along, it was so groundbreaking because it worked to discover important features, taking this burden off of the algorithm researchers.
+
+### Ostu's method
+It’s often used for background extraction and classification. It takes the intensity distribution of an image and searches it to find the intensity threshold that minimizes the variance in each of the two classes. Once it discovers that threshold, it considers every pixel on one side of that image to be one class and on the other side to be another class.
+
+### Convolutional neural network (CNN)
+There are several sets of convolutional layers in a CNN model. Each layer is made up of a set of filters that are looking for features. Layers that come early in a CNN model look for very simple features such as directional lines and layers that come later look for complex features such as shapes.
+
+Note that the input image size must match the size of the first set of convolutional layers.
+
+### U-Net
+U-Net is used for segmentation problems and it is more commonly used in 3D medical imaging. It's important to note that a limitation of 2D imaging is the inability to measure the volume of structures. 2D medical imaging only measures the area with respect to the angle of the image taken, which limits its utility in segmenting the whole area.
+
+
 
