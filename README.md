@@ -161,4 +161,20 @@ Note that the input image size must match the size of the first set of convoluti
 U-Net is used for segmentation problems and it is more commonly used in 3D medical imaging. It's important to note that a limitation of 2D imaging is the inability to measure the volume of structures. 2D medical imaging only measures the area with respect to the angle of the image taken, which limits its utility in segmenting the whole area.
 
 
+## Gold standard
+The gold standard for a particular type of data refers to the method that detects disease with the highest sensitivity and accuracy. Any new method that is developed can be compared to this to determine its performance. The gold standard is different for different diseases.
+
+## Ground truth
+Often times, the gold standard is unattainable for an algorithm developer. So, you still need to establish the ground truth to compare your algorithm.
+
+Ground truths can be created in many different ways. Typical sources of ground truth are
+
+### Biopsy-based labeling. 
+Limitations: difficult and expensive to obtain.
+### NLP extraction. Limitations: may not be accurate.
+### Expert (radiologist) labeling. 
+Limitations: expensive and requires a lot of time to come up with labeling protocols.
+### Labeling by another state-of-the-art algorithm. Limitations: may not be accurate.
+Silver standard
+The silver standard involves hiring several radiologists to each make their own diagnosis of an image. The final diagnosis is then determined by a voting system across all of the radiologists’ labels for each image. Note, sometimes radiologists’ experience levels are taken into account and votes are weighted by years of experience.
 
