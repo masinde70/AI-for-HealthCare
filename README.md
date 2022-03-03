@@ -184,3 +184,18 @@ Ground truths can be created in many different ways. Typical sources of ground t
 ## Silver standard
 The silver standard involves hiring several radiologists to each make their own diagnosis of an image. The final diagnosis is then determined by a voting system across all of the radiologists’ labels for each image. Note, sometimes radiologists’ experience levels are taken into account and votes are weighted by years of experience.
 
+## Intensity normalization
+Intensity normalization is good practice and should always be done prior to using data for training. Making all of your intensity values fall within a small range that is close to zero helps the weights on our convolutional filters stay under control
+
+## There are two types of normalization that you can perform.
+
+zero-meaning: subtract that mean intensity value from every pixel.
+standardization: subtract the mean from each pixel and divide by the image’s standard deviation.
+Image augmentation
+Image augmentation allows us to create different versions of the original data. Keras provides ImageDataGenerator package for image augmentation.
+
+Note: not all image augmentation method is appropriate for medical imaging. A vertical flip should never be applied. And validation data should NEVER be augmented.
+
+Image resize
+CNNs have an input layer that specifies the size of the image they can process. Keras flow_from_directory have a target_size parameter to resize image.
+
