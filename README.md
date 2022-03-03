@@ -170,11 +170,17 @@ Often times, the gold standard is unattainable for an algorithm developer. So, y
 Ground truths can be created in many different ways. Typical sources of ground truth are
 
 ### Biopsy-based labeling. 
-Limitations: difficult and expensive to obtain.
-### NLP extraction. Limitations: may not be accurate.
+* Limitations: 
+  difficult and expensive to obtain.
+### NLP extraction. 
+* Limitations: 
+   may not be accurate.
 ### Expert (radiologist) labeling. 
-Limitations: expensive and requires a lot of time to come up with labeling protocols.
-### Labeling by another state-of-the-art algorithm. Limitations: may not be accurate.
-Silver standard
+* Limitations: 
+  expensive and requires a lot of time to come up with labeling protocols.
+### Labeling by another state-of-the-art algorithm. 
+ * Limitations:
+    may not be accurate.
+## Silver standard
 The silver standard involves hiring several radiologists to each make their own diagnosis of an image. The final diagnosis is then determined by a voting system across all of the radiologists’ labels for each image. Note, sometimes radiologists’ experience levels are taken into account and votes are weighted by years of experience.
 
