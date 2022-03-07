@@ -211,6 +211,5 @@ CNNs have an input layer that specifies the size of the image they can process. 
 
 ## Keras Image generator
 ````
-ImageDataGenerator(rescale = 1. / 255) 
-´´´
+ImageDataGenerator(rescale = 1. / 255) ```
 
