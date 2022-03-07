@@ -206,4 +206,7 @@ CNNs have an input layer that specifies the size of the image they can process. 
 ## GOALS:
 * Remove potential noise from your images(e.g background extraction)
 * Enforce some normalization across images(Zero-mean, standardization)
+* Enlarge your dataset(Image Augmentation)
+* Resize for your CNN architecture's required input
+
 
