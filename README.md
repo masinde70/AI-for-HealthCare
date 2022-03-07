@@ -201,3 +201,9 @@ not all image augmentation method is appropriate for medical imaging. A vertical
 ## Image resize
 CNNs have an input layer that specifies the size of the image they can process. Keras flow_from_directory have a target_size parameter to resize image.
 
+## Image Pre-processing
+
+## GOALS:
+* Remove potential noise from your images(e.g background extraction)
+* Enforce some normalization across images(Zero-mean, standardization)
+
