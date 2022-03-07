@@ -1,3 +1,2 @@
-dense/
-fatty/
-dicom*
+**/dense
+**/fatty
