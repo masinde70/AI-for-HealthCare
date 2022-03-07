@@ -213,5 +213,6 @@ CNNs have an input layer that specifies the size of the image they can process. 
 ```
 ImageDataGenerator(rescale = 1. / 255)
 
+
 ```
 
