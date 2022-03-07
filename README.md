@@ -209,4 +209,6 @@ CNNs have an input layer that specifies the size of the image they can process. 
 * Enlarge your dataset(Image Augmentation)
 * Resize for your CNN architecture's required input
 
+## Keras Image generator
+``ImageDataGenerator(rescale = 1. / 255) ´´
 
