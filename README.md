@@ -161,4 +161,58 @@ Note that the input image size must match the size of the first set of convoluti
 U-Net is used for segmentation problems and it is more commonly used in 3D medical imaging. It's important to note that a limitation of 2D imaging is the inability to measure the volume of structures. 2D medical imaging only measures the area with respect to the angle of the image taken, which limits its utility in segmenting the whole area.
 
 
+## Gold standard
+The gold standard for a particular type of data refers to the method that detects disease with the highest sensitivity and accuracy. Any new method that is developed can be compared to this to determine its performance. The gold standard is different for different diseases.
+
+## Ground truth
+Often times, the gold standard is unattainable for an algorithm developer. So, you still need to establish the ground truth to compare your algorithm.
+
+Ground truths can be created in many different ways. Typical sources of ground truth are
+
+### Biopsy-based labeling. 
+* Limitations: 
+  difficult and expensive to obtain.
+### NLP extraction. 
+* Limitations: 
+   may not be accurate.
+### Expert (radiologist) labeling. 
+* Limitations: 
+  expensive and requires a lot of time to come up with labeling protocols.
+### Labeling by another state-of-the-art algorithm. 
+ * Limitations:
+    may not be accurate.
+## Silver standard
+The silver standard involves hiring several radiologists to each make their own diagnosis of an image. The final diagnosis is then determined by a voting system across all of the radiologists’ labels for each image. Note, sometimes radiologists’ experience levels are taken into account and votes are weighted by years of experience.
+
+## Intensity normalization
+Intensity normalization is good practice and should always be done prior to using data for training. Making all of your intensity values fall within a small range that is close to zero helps the weights on our convolutional filters stay under control
+
+## There are two types of normalization that you can perform.
+
+* zero-meaning: subtract that mean intensity value from every pixel.
+* standardization: subtract the mean from each pixel and divide by the image’s standard deviation.
+
+### Image augmentation
+Image augmentation allows us to create different versions of the original data. Keras provides ImageDataGenerator package for image augmentation.
+
+## Note: 
+not all image augmentation method is appropriate for medical imaging. A vertical flip should never be applied. And validation data should NEVER be augmented.
+
+## Image resize
+CNNs have an input layer that specifies the size of the image they can process. Keras flow_from_directory have a target_size parameter to resize image.
+
+## Image Pre-processing
+
+## GOALS:
+* Remove potential noise from your images(e.g background extraction)
+* Enforce some normalization across images(Zero-mean, standardization)
+* Enlarge your dataset(Image Augmentation)
+* Resize for your CNN architecture's required input
+
+## Keras Image generator
+```
+ImageDataGenerator(rescale = 1. / 255)
+
+
+```
 
