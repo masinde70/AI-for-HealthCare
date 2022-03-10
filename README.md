@@ -215,4 +215,4 @@ ImageDataGenerator(rescale = 1. / 255)
 
 
 ```
-
+function called flow_from_dataframe instead of flow_from_directory. This is easier because I had all of my image file paths stored in a dataframe, and is identical in function to flow_from_directory. This may be a handy tool in your project.
