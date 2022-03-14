@@ -235,3 +235,16 @@ To avoid overfitting, we can A) changing your model’s architecture, or B) chan
 * Learning rate
 * Dropout
 * More variation on training data
+
+Glossary
+Training set: Set of data that your ML or DL model uses to learn its parameters, usually 80% of your entire dataset
+Validation set: Set of data that the algorithm developer uses to establish whether or not their algorithm is learning the correct features and parameters
+Gold standard: The method that detects your disease with the highest sensitivity and accuracy.
+Ground truth: A label used to compare against your algorithm's output and establish its performance
+Silver standard: A method to create a ground truth that takes into account several different label sources
+Image augmentation: The process of altering training data slightly to expand the training dataset
+Fine-tuning: The process of using an existing algorithm's architecture and weights created for a different task, and re-training them for a new task
+Batch size: The number of images used at a time to train an algorithm
+Epoch: A single run of sending the entire set of training data through an algorithm
+Learning rate: The speed at which your optimizer function moves towards a minimum by updating algorithm weights through back-propagation
+Overfitting: A phenomenon that happens when an algorithm specifically learns features of a training dataset that do not generalize beyond that specific dataset
