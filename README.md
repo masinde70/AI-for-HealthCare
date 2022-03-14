@@ -225,13 +225,13 @@ At the end of each epoch, we also use that loss function to evaluate the loss on
 
 If the loss is small, it means the model did well classifying the images that it saw in that epoch.
 
-Overfitting
+### Overfitting
 If the training loss keeps going down while the validation loss stops decreasing after a few epochs, we call the model is overfitting. It suggests the model is still learning how to better classify the training data but NOT the validation data.
 
-Prevent overfitting
+### Prevent overfitting
 To avoid overfitting, we can A) changing your model’s architecture, or B) changing some of the parameters. Some parameters you can change are:
 
-Batch size
-Learning rate
-Dropout
-More variation on training data
+## Batch size
+* Learning rate
+* Dropout
+* More variation on training data
