@@ -248,3 +248,11 @@ To avoid overfitting, we can A) changing your model’s architecture, or B) chan
 * Epoch: A single run of sending the entire set of training data through an algorithm
 * Learning rate: The speed at which your optimizer function moves towards a minimum by updating algorithm weights through back-propagation
 * Overfitting: A phenomenon that happens when an algorithm specifically learns features of a training dataset that do not generalize beyond that specific dataset
+
+
+
+## Intended use of the product
+The FDA will require you to provide an intended use statement and an indication for use statement. The intended use statement tells the FDA exactly what your algorithm is used for. Not what it could be used for. And FDA will use this statement to define the risk and class of your algorithm.
+
+## Indication for use of the product
+You can use the indications for use statement to make more specific suggestions about how your algorithm could be used. Indications for use statement describes precise situations and reasons where and why you would use this device.
