@@ -257,3 +257,4 @@ The FDA will require you to provide an intended use statement and an indication 
 
 ## Indication for use of the product
 You can use the indications for use statement to make more specific suggestions about how your algorithm could be used. Indications for use statement describes precise situations and reasons where and why you would use this device.
+* eg. Screening mammography studies women between the ages of 20-60 yrs old with no prior history of breast cancer
