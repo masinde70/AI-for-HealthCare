@@ -2,4 +2,6 @@
 **/fatty
 **/*.jpg
 **/*.pgm
+/Users/masinde/tensorflow-test/AI-for-HealthCare/HealthAI/FineTuning/*.pgm
+
 
