@@ -216,3 +216,54 @@ ImageDataGenerator(rescale = 1. / 255)
 
 ```
 function called flow_from_dataframe instead of flow_from_directory. This is easier because I had all of my image file paths stored in a dataframe, and is identical in function to flow_from_directory. This may be a handy tool in your project.
+
+## Summary
+#### Loss and loss function
+Each time the entire training data is passed through the CNN, we call this one epoch. At the end of each epoch, the model has a loss function to calculate how different its prediction from the ground truth of the training image, this difference is the training loss. The network then uses the training loss to update the weights of filters. This technique is called back-propogation.
+
+At the end of each epoch, we also use that loss function to evaluate the loss on the validation set and obtain a validation loss that measures how the prediction matches the validation data. But we don’t update weights using validation loss. The validation set is just to test the performance of the model.
+
+If the loss is small, it means the model did well classifying the images that it saw in that epoch.
+
+### Overfitting
+If the training loss keeps going down while the validation loss stops decreasing after a few epochs, we call the model is overfitting. It suggests the model is still learning how to better classify the training data but NOT the validation data.
+
+### Prevent overfitting
+To avoid overfitting, we can A) changing your model’s architecture, or B) changing some of the parameters. Some parameters you can change are:
+
+## Batch size
+* Learning rate
+* Dropout
+* More variation on training data
+
+## Glossary
+* Training set: Set of data that your ML or DL model uses to learn its parameters, usually 80% of your entire dataset
+* Validation set: Set of data that the algorithm developer uses to establish whether or not their algorithm is learning the correct features and parameters
+* Gold standard: The method that detects your disease with the highest sensitivity and accuracy.
+* Ground truth: A label used to compare against your algorithm's output and establish its performance
+* Silver standard: A method to create a ground truth that takes into account several different label sources
+* Image augmentation: The process of altering training data slightly to expand the training dataset
+* Fine-tuning: The process of using an existing algorithm's architecture and weights created for a different task, and re-training them for a new task
+* Batch size: The number of images used at a time to train an algorithm
+* Epoch: A single run of sending the entire set of training data through an algorithm
+* Learning rate: The speed at which your optimizer function moves towards a minimum by updating algorithm weights through back-propagation
+* Overfitting: A phenomenon that happens when an algorithm specifically learns features of a training dataset that do not generalize beyond that specific dataset
+
+
+
+## Intended use of the product
+The FDA will require you to provide an intended use statement and an indication for use statement. The intended use statement tells the FDA exactly what your algorithm is used for. Not what it could be used for. And FDA will use this statement to define the risk and class of your algorithm.
+* eg. In assisting the radiologist in detecting of breast abnormalities on mammogram 
+
+## Indication for use of the product
+You can use the indications for use statement to make more specific suggestions about how your algorithm could be used. Indications for use statement describes precise situations and reasons where and why you would use this device.
+* eg. Screening mammography studies women between the ages of 20-60 yrs old with no prior history of breast cancer
+
+## Algorithm limitations
+When the FDA talks about limitations, they want to know more about scenarios where your algorithm is not safe and effective to use. In other words, they want to know where our algorithm will fail.
+
+## Computational limitations
+If your algorithm needs to work in an emergency workflow, you need to consider computational limitations and inform the FDA that the algorithm does not achieve fast performance in the absence of certain types of computational infrastructure. This would let your end consumers know if the device is right for them.
+
+## Medical device reporting
+After your algorithm is cleared by the FDA and released, the FDA has a system called Medical Device Reporting to continuously monitor. Any time one of your end-users discovers a malfunction in your software, they report this back to you, the manufacturer, and you are required to report it back to the FDA. Depending on the severity of the malfunction, and whether or not it is life-threatening, the FDA will either completely recall your device or require you to update its labeling and explicitly state new limitations that have been encountered.
