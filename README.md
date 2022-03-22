@@ -288,3 +288,21 @@ Precision-recall curve plots recall in the x-axis and precision in the y-axis. E
 ## F1 score
 For binary classification problems, the F1 score combines both precision and recall. F1 score allows us to better measure a test’s accuracy when there are class imbalances. Mathematically, it is the harmonic mean of precision and recall.
 
+## FDA validation plan
+### FDA validation set
+You'll need to perform a standalone clinical assessment of your tool that uses an FDA validation set from a real-world clinical setting to prove to the FDA that your algorithm works. You will run this FDA validation set through your algorithm just ONCE.
+
+You’ll need to identify a clinical partner who you can work with to gather the “BEST” data for your validation plan. This partner will collect data from a real-world clinical setting that you describe so that you can then see how your algorithm performs under these specifications.
+
+### Collect the FDA validation set
+You need to identify a clinical partner to gather the FDA validation set. First, you need to describe who you want the data from. Second, you need to specify what types of images you’re looking for.
+
+### Establish the ground truth
+You need to gather the ground truth that can be used to compare the model output tested on the FDA validation set. The choice of your ground truth method ties back to your intended use statement. Depending on the intended use of the algorithm, the ground truth can be very different.
+
+### Performance standard
+For your validation plan, you need evidence to support your reasoning. As a result, you need a performance standard. This step usually involves a lot of literature searching.
+
+Depending on the use case for your algorithm, part of your validation plan may need to include assessing how fast your algorithm can read a study.
+
+
