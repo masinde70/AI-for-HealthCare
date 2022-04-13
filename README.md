@@ -326,3 +326,5 @@ Contrast resolution refers to the ability of any imaging modality to distinguish
 the ability of an imaging modality to distinguish between differences in image intensity
 #### Spatial resolution: 
 the ability of an imaging modality to differentiate between smaller objects
+
+Surgeons, Interventional Radiologists, and other procedure-heavy fields use 3D medical imaging not only for diagnosis, but for guidance during an operation/procedure.
