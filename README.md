@@ -318,5 +318,6 @@ An FDA regulatory pathway for Class II and III devices that is mandated when a p
     a device used to acquire a medical image
 ### MRI scanner:
     Magnetic Resonance Imaging scanner
-    
+
+## Contrast resolution    
 Contrast resolution refers to the ability of any imaging modality to distinguish between differences in image intensity, and makes the most sense to optimize in this given scenario.
