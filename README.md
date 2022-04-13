@@ -321,3 +321,6 @@ An FDA regulatory pathway for Class II and III devices that is mandated when a p
 
 ## Contrast resolution    
 Contrast resolution refers to the ability of any imaging modality to distinguish between differences in image intensity, and makes the most sense to optimize in this given scenario.
+
+#### Contrast resolution: 
+the ability of an imaging modality to distinguish between differences in image intensity
