@@ -314,3 +314,5 @@ An FDA regulatory pathway for medical devices of all three risk categories that 
 An FDA regulatory pathway for Class II and III devices that is mandated when a predicate device does not exist
 
 # 3D Medical Imaging
+### Imaging modality: a device used to acquire a medical image
+MRI scanner: Magnetic Resonance Imaging scanner
