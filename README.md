@@ -312,3 +312,5 @@ A statement given to the FDA that concisely describes what your algorithm does
 An FDA regulatory pathway for medical devices of all three risk categories that is appropriate when a predicate device exists
 ## PMA: 
 An FDA regulatory pathway for Class II and III devices that is mandated when a predicate device does not exist
+
+# 3D Medical Imaging
