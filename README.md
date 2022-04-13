@@ -315,4 +315,4 @@ An FDA regulatory pathway for Class II and III devices that is mandated when a p
 
 # 3D Medical Imaging
 ### Imaging modality: a device used to acquire a medical image
-MRI scanner: Magnetic Resonance Imaging scanner
+### MRI scanner: Magnetic Resonance Imaging scanner
