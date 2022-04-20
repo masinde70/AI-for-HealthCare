@@ -337,3 +337,8 @@ a combination of magnetic fields and sequence in which they are applied that res
 
 ## MPR: 
 multi-planar reconstruction - extraction of non-primary imaging planes from a 3D volume
+
+### Creating a 2D image from k-space data
+MRI Data construction
+
+
