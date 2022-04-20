@@ -344,10 +344,16 @@ MRI Data construction
 
 ### Multi pluner reconstruction
 Extracting a 2D image in coronal plane from an image which has been acquired in sagittal
+extracting non-primary 2D planes from volume
 
-3D reconstruction is creating a 3D image or from the 2D slices.
+
+### 3D reconstruction is creating a 3D image or from the 2D slices.
+building 3D volume from voxels
+
+### Windowing
+Mapping the hing-range intensity space to 8-bit grayscale screen space
 
 ## Medical image registration
-Bringing two images into the same patient-centric coordinate system
+Bringing two images into the same patient-centric coordinate system so that they could be loverlaid on top of each other
 
 Depending on the tasks you are dealing with, you might come across both registered and unregistered data in your datasets. Before starting to build models that leverage data for the same patient that comes from multiple modalities or multiple time points, you should think if your voxels match up in space or not. And if they don’t you might want to consider registering related volume pairs.
