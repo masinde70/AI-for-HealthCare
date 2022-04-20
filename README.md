@@ -373,3 +373,14 @@ Let us leave you with a little vocabulary of the many terms that have been intro
 ##### 3D reconstruction: constructing a 3D model from multiple slices of 3D medical imaging data
 ##### Registration: bringing two different images into same patient-centric coordinate space
 
+
+DICOM Entity-Relationship Model
+DICOM standard defines Information Entities that represent various real-world entities and relationships between them. The cornerstone of the DICOM standard are the following objects and relationships:
+
+Patient is, naturally, the patient undergoing the imaging study. A patient object contains one or more studies.
+
+Study - a representation of a “medical study” performed on a patient. You can think of a study as a single visit to a hospital for the purpose of taking one or more images, usually within. A Study contains one or more series.
+
+Series - a representation of a single “acquisition sweep”. I.e., a CT scanner took multiple slices to compose a 3D image would be one image series. A set of MRI T1 images at different axial levels would also be called one image series. Series, among other things, consists of one or more instances.
+
+Instance - (or Image Information Entity instance) is an entity that represents a single scan, like a 2D image that is a result of filtered backprojection from CT or reconstruction at a given level for MR. Instances contain pixel data and metadata (Data Elements in DICOM lingo)
