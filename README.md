@@ -342,3 +342,5 @@ multi-planar reconstruction - extraction of non-primary imaging planes from a 3D
 MRI Data construction
 
 
+### Multi pluner reconstruction
+Extracting a 2D image in coronal plane from an image which has been acquired in sagittal
