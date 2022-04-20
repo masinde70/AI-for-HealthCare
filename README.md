@@ -346,3 +346,8 @@ MRI Data construction
 Extracting a 2D image in coronal plane from an image which has been acquired in sagittal
 
 3D reconstruction is creating a 3D image or from the 2D slices.
+
+## Medical image registration
+Bringing two images into the same patient-centric coordinate system
+
+Depending on the tasks you are dealing with, you might come across both registered and unregistered data in your datasets. Before starting to build models that leverage data for the same patient that comes from multiple modalities or multiple time points, you should think if your voxels match up in space or not. And if they don’t you might want to consider registering related volume pairs.
