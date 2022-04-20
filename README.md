@@ -334,3 +334,6 @@ Surgeons, Interventional Radiologists, and other procedure-heavy fields use 3D m
 
 ### Pulse sequence:
 a combination of magnetic fields and sequence in which they are applied that results in a particular type of MR image
+
+## MPR: 
+multi-planar reconstruction - extraction of non-primary imaging planes from a 3D volume
