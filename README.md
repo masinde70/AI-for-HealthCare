@@ -344,3 +344,5 @@ MRI Data construction
 
 ### Multi pluner reconstruction
 Extracting a 2D image in coronal plane from an image which has been acquired in sagittal
+
+3D reconstruction is creating a 3D image or from the 2D slices.
