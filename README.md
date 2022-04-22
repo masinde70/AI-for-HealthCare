@@ -390,3 +390,7 @@ is, naturally, the patient undergoing the imaging study. A patient object contai
 
 ### Instance 
 - (or Image Information Entity instance) is an entity that represents a single scan, like a 2D image that is a result of filtered backprojection from CT or reconstruction at a given level for MR. Instances contain pixel data and metadata (Data Elements in DICOM lingo)
+
+### NIFTI FILES
+NIFTI, which stands for Neuroimaging Informatics Technology Initiative, is an open standard that is available at [link](https://nifti.nimh.nih.gov/nifti-2.) The standard has started out as a format to store neurological imaging data and has slowly seen a larger adoption across other types of biomedical imaging fields.
+1. [NIFTI File](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields)
