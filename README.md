@@ -403,3 +403,4 @@ Some things that distinguish NIFTI from DICOM, though are:
 - NIFTI’s ability to store entire series in a single file is quite convenient when you are dealing with a curated research dataset. Also, NIFTI uses a different orientation of the cartesian coordinate system than DICOM.
 
 1. [NIFTI File](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields)
+2. [good dicom](https://dicom.innolitics.com/ciods/ct-image/patient)
