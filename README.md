@@ -405,3 +405,4 @@ Some things that distinguish NIFTI from DICOM, though are:
 1. [NIFTI File](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields)
 2. [good dicom](https://dicom.innolitics.com/ciods/ct-image/patient)
 3. [nifti tutorial](https://nipy.org/nibabel/coordinate_systems.html)
+4. [elements in DICOM’s ImagePixel module.](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.6.3.html#table_C.7-11c)
