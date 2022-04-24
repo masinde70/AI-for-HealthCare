@@ -465,3 +465,11 @@ Assuming that you keep input and output images in memory, what is the minimum am
 3400 "Correct, you need to at least store the original image - 30x30x2 bytes, the output image - 28x28x2 bytes and the convolutional kernel - 4x4x2 bytes. Now, you can try and compute how this requirement changes for 2.5d and 3d approaches."
 
 
+# Resources
+1. [A guide to convolution arithmetic for deeplearning](https://arxiv.org/pdf/1603.07285.pdf)
+2. [Improving Computer-aided Detection using Convolutional Neural Networks and Random View Aggregation](https://arxiv.org/pdf/1505.03046.pdf)
+3. [A New 2.5D Representation for Lymph Node Detection using Random Sets of Deep Convolutional Neural Network Observations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4295635/pdf/nihms654160.pdf)
+4. [3D multi-view convolutional neural networks for lung nodule classification](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188290)
+
+6. 
+
