@@ -421,5 +421,19 @@ Some things that distinguish NIFTI from DICOM, though are:
 3. [Some DICOM gotchas to be aware of (fastai)](https://www.kaggle.com/code/jhoward/some-dicom-gotchas-to-be-aware-of-fastai/notebook)
 
 
+#### Vocabulary
+
+ - Digital Imaging and Communication in Medicine. The standard defining the storage and communication of medical images.
+ - DICOM Information Object - representation of a real-world object (such as an MRI scan) per DICOM standard.
+ - IOD - Information Object Definition. Definition of an information object. Information Object Definition specifies what metadata fields have to be in place for a DICOM Information Object to be valid. IODs are published in the DICOM standard.
+ - Patient - a subject undergoing the imaging study.
+ - Study - a representation of a “medical study” performed on a patient. You can think of a study as a single visit to a hospital for the purpose of taking one or more images, usually within. A Study contains one or more series.
+ - Series - a representation of a single “acquisition sweep”. I.e., a CT scanner took multiple slices to compose a 3D image would be one image series. A set of MRI T1 images at different axial levels would also be called one image series. Series, among other things, consists of one or more instances.
+ - Instance - (or Image Information Entity instance) is an entity that represents a single scan, like a 2D image that is a result of filtered backprojection from CT or reconstruction at a given level for MR. Instances contain pixel data and metadata (Data Elements in DICOM lingo).
+ - SOP - Service-Object Pair. DICOM standard defines the concept of an Information Object, which is the representation of a real-world persistent object, such as an MRI image (DICOM Information Objects consist of Information Entities).
+ - Data Element - a DICOM metadata “field”, which is uniquely identified by a tuple of integer numbers called group id and element id.
+ - VR - Value Representation. This is the data type of a DICOM data element.
+ - Data Element Type - identifiers that are used by Information Object Definitions to specify if Data Elements are mandatory, conditional or optional.
+ - NIFTI - Neuroimaging Informatics Technology Initiative, is an open standard that is used to store various biomedical data, including 3D images.
 
  
