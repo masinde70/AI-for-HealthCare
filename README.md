@@ -407,3 +407,19 @@ Some things that distinguish NIFTI from DICOM, though are:
 2. [good dicom](https://dicom.innolitics.com/ciods/ct-image/patient)
 3. [nifti tutorial](https://nipy.org/nibabel/coordinate_systems.html)
 4. [elements in DICOM’s ImagePixel module.](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.6.3.html#table_C.7-11c)
+
+
+### EDA Tutorial
+1. [RSNA Intracranial Hemorrhage Detection Identify acute intracranial hemorrhage and its subtypes](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection)
+2. [RSNA Pneumonia Detection Challenge Can you build an algorithm that automatically detects potential pneumonia cases?](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge)
+3. [Data Science Bowl 2017 Can you improve lung cancer detection?](https://www.kaggle.com/c/data-science-bowl-2017)
+4. [RSNA-ASNR-MICCAI Brain Tumor Segmentation (BraTS) Challenge 2021](http://braintumorsegmentation.org/)
+
+### Notebooks and tricks
+1. [windowing approaches](https://www.kaggle.com/code/jhoward/don-t-see-like-a-radiologist-fastai/notebook)
+2. [See like a Radiologist with Systematic Windowing](https://www.kaggle.com/code/dcstang/see-like-a-radiologist-with-systematic-windowing/notebook)
+3. [Some DICOM gotchas to be aware of (fastai)](https://www.kaggle.com/code/jhoward/some-dicom-gotchas-to-be-aware-of-fastai/notebook)
+
+
+
+ 
