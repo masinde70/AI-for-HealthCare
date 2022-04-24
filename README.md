@@ -439,3 +439,9 @@ Some things that distinguish NIFTI from DICOM, though are:
  - NIFTI - Neuroimaging Informatics Technology Initiative, is an open standard that is used to store various biomedical data, including 3D images.
 
  
+
+When it comes to classification and object detection problems, the key to solving those is identifying relevant features in the images, or feature extraction. Not so long ago, machine learning methods relied on manual feature design. With the advent of CNNs, feature extraction is done automatically by the network, and the job of a machine learning engineer is to define the general shape of such features. As the name implies, features in Convolutional Neural Networks take the shape of convolutions. In the next section, let’s take a closer look at some of the types of convolutions that are used for 3D medical image analysis.
+
+### New Vocabulary
+Classification - the problem of determining which one of several classes an image belongs to.
+Object Detection - the problem of finding a (typically rectangular) region within an image that matches with one of several classes of interest.
