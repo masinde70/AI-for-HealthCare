@@ -460,3 +460,8 @@ Understanding these is essential to being able to put together efficient deep ne
 
 ### QUIZ QUESTION
 Assuming that you keep input and output images in memory, what is the minimum amount of memory in bytes that you need to allocate in order to compute a convolutional feature map of size 28x28 from an image of size 30x30 using a 3x3 convolutional kernel? Assume 16 bits per pixel and 16 bits for each parameter of the kernel.
+
+## Ans
+3400 "Correct, you need to at least store the original image - 30x30x2 bytes, the output image - 28x28x2 bytes and the convolutional kernel - 4x4x2 bytes. Now, you can try and compute how this requirement changes for 2.5d and 3d approaches."
+
+
