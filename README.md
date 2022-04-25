@@ -510,6 +510,7 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 4. [Radiogenomics: bridging imaging and genomics](https://link.springer.com/article/10.1007/s00261-019-02028-w)
 5. [Ground Truth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3587102/)
 6. [Autosegmentation of prostate anatomy for radiation treatment planning using deep decision forests of radiomic features](https://www.researchgate.net/publication/328485616_Autosegmentation_of_prostate_anatomy_for_radiation_treatment_planning_using_deep_decision_forests_of_radiomic_features)
+7. [Metrics for evaluating 3D medical image segmentation: analysis, selection, and tool](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4533825/)
 
 
 #### QUIZ QUESTION
