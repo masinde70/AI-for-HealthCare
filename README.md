@@ -501,4 +501,5 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 3. [Brain MRI segmentation](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 4. [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 5. [Medical Segmentation Decathlon Generalisable 3D Semantic Segmentation](http://medicaldecathlon.com/)
+6. [notebook](https://github.com/udacity/nd320-c3-3d-med-imaging/tree/master/3d-imaging-end-to-end-deep-learning-applications/exercises/2-segmentation-hands-on/solution)
 
