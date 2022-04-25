@@ -534,3 +534,10 @@ Hausdorff distance will assign similar scores to result that matches up with all
 5.  ## Work by the German Cancer Research Institute
 6. [a boilerplate for machine learning experiment](https://github.com/MIC-DKFZ/trixi)
 7. [tooling for data augmentation](https://github.com/MIC-DKFZ/batchgenerators)
+
+## Books
+1. [deep learning with a special section on computer vision by Alexander Smola et al. Alexander has a strong history of publications on machine learning algorithms and statistical analysis and is presently serving as a director for machine learning at Amazon Web Services in Palo Alto, CA](https://d2l.ai/)
+2. [a book on general concepts of machine learning by Christopher Bishop et al. Christopher has a distinguished career as a machine learning scientist and presently is in charge of Microsoft Research lab in Cambridge, UK, where I had the honor to work on project [InnerEye for several years](https://www.microsoft.com/en-us/research/project/medical-image-analysis/).](https://www.mbmlbook.com/)
+3. [Interactive Organ Segmentation using Graph Cuts](https://cs.uwaterloo.ca/~yboykov/Papers/miccai00.pdf)
+4. [Probabilistic Graphical Models for Medical Image Segmentation](https://www.researchgate.net/publication/280664591_Probabilistic_Graphical_Models_for_Medical_Image_Segmentation)
+5. [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
