@@ -507,3 +507,4 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 1. [Upsampling](https://naokishibuya.medium.com/up-sampling-with-transposed-convolution-9ae4f2df52d0)
 2. [Fully Convolutional Networksfor Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)
 3. [Hounsfield](https://en.wikipedia.org/wiki/Hounsfield_scale)
+4. [Radiogenomics: bridging imaging and genomics](https://link.springer.com/article/10.1007/s00261-019-02028-w)
