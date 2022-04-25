@@ -518,3 +518,19 @@ You're building a ML model to segment blood vessels in chest CT scans. Since blo
 
 #### ANS
 Hausdorff distance will assign similar scores to result that matches up with all the voxels and one where none of the voxels match up, but the structure is very close to the target.
+
+
+### Resources
+1. [Using deep learning to increase the resolution of low-res scans](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107420/)
+2. [GANs for synthetic MRI](https://arxiv.org/pdf/1803.01229.pdf)
+3. [A survey of deep learning methods for medical image registration:](https://arxiv.org/abs/1903.02026)
+4. [Overview of opportunities for deep learning on MRIs:](https://www.sciencedirect.com/science/article/pii/S0939388918301181)
+
+### Tools and libraries
+1. [Fast.ai - python library for medical image analysis, with focus on ML:](https://docs.fast.ai/medical.imaging.html)
+2. [MedPy - a library for medical image processing with lots of various higher-order processing methods](https://pypi.org/project/MedPy/)
+3. [Deepmedic, a library for 3D CNNs for medical image segmentation](https://github.com/deepmedic/deepmedic)
+4. [A publication about a project dedicated to large-scale medical imaging ML model evaluation which includes a comprehensive overview of annotation tools and related problems (including inter-observer variability)](https://link.springer.com/chapter/10.1007/978-3-319-49644-3_4)
+5.  ## Work by the German Cancer Research Institute
+6. [a boilerplate for machine learning experiment](https://github.com/MIC-DKFZ/trixi)
+7. [tooling for data augmentation](https://github.com/MIC-DKFZ/batchgenerators)
