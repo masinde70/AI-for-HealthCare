@@ -499,5 +499,6 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 1. [unet](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/index.html)
 2. [Brain Tumor Segmentation | UNets | PyTorch | Monai](https://www.kaggle.com/code/sudhupandey/brain-tumor-segmentation-unets-pytorch-monai)
 3. [Brain MRI segmentation](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
-4. 
+4. [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
+5. [Medical Segmentation Decathlon Generalisable 3D Semantic Segmentation](http://medicaldecathlon.com/)
 
