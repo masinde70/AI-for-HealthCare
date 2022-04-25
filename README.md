@@ -497,6 +497,7 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 
 #### Unet
 1. [unet](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/index.html)
-2. 
-
+2. [Brain Tumor Segmentation | UNets | PyTorch | Monai](https://www.kaggle.com/code/sudhupandey/brain-tumor-segmentation-unets-pytorch-monai)
+3. [Brain MRI segmentation](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+4. 
 
