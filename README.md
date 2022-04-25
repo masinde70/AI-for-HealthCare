@@ -514,3 +514,6 @@ The segmentation algorithm would make the radiologists’ job much easier since 
 
 #### QUIZ QUESTION
 You're building a ML model to segment blood vessels in chest CT scans. Since blood vessels are only a few voxels in diameter, it's possible that the predicted shape might be very similar to ground truth but predicted voxels will not match GT precisely. Which of the following metrics would be best if you wanted to rate this type of prediction similarly to one that labels all the voxels precisely?
+
+#### ANS
+Hausdorff distance will assign similar scores to result that matches up with all the voxels and one where none of the voxels match up, but the structure is very close to the target.
