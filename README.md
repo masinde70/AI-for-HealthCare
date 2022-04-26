@@ -541,3 +541,17 @@ Hausdorff distance will assign similar scores to result that matches up with all
 3. [Interactive Organ Segmentation using Graph Cuts](https://cs.uwaterloo.ca/~yboykov/Papers/miccai00.pdf)
 4. [Probabilistic Graphical Models for Medical Image Segmentation](https://www.researchgate.net/publication/280664591_Probabilistic_Graphical_Models_for_Medical_Image_Segmentation)
 5. [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
+
+##### There are two types of DICOM networking: DIMSE (DICOM Message Service Element) and DICOMWeb. 
+The former is designed to support data exchange in protected clinical networks that are largely isolated from the Internet.
+The latter is a set of RESTful APIs (link to the Standard) that are designed to communicate over the Internet. 
+- DIMSE networking does not have a notion of authentication and is prevalent inside hospitals.
+- DIMSE networking defines how DICOM Application Entities talk to each other on protected networks.
+- DICOM Application Entities that talk to each other take on roles of Service Class Providers which are an an AE that provides services over DIMSE network and Service Class Users which is an AI that requests service from an SCP SCPs typical respond to requests and SCUs issue them
+Full list of DIMSE services could be found in the Part 7 of the DICOM Standard, ones that you are most likely run into are:
+- C-Echo - “DICOM ping” - checks if the other party can speak DICOM
+- C-Store - request to store an instance
+- An Application Entity (AE) is an actor on a network (e.g. a medical imaging modality or a PACS) that can talk DIMSE messages defined by three parameters:
+- Port
+- IP Address
+- Application Entity Title (AET) - an alphanumeric string
