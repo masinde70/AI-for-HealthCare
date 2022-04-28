@@ -11,6 +11,10 @@ Note: when choosing a medical imaging problem to be solved by machine learning, 
 - How to use AI to solve 2D Imaging problems 
 - How to take AI from the bench to bedside to be used by doctors to improve patient lives
 
+## Tutorial
+1. [tutorial](https://tatwan.github.io/blog/jupyter/dicom/python/tensorflow/eda/2020/05/21/part-2-train-model-DICOM.html)
+2. [Anather tutorial](https://livingdatalab.com/)
+
 #### New terms
 - **X-ray:** a 2D imaging technique that projects a type of radiation called x-rays down at the body from a single direction to capture a single image.
 - Ultrasound: a 2D imaging technique that uses high-frequency sound waves to generate images.
