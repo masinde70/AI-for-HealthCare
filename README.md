@@ -3,6 +3,10 @@ Note: when choosing a medical imaging problem to be solved by machine learning, 
 
 
 ### 2D medical Imaging 
+1. [FDA cleared AI medical products that are related to radiology and other imaging domains](https://aicentral.acrdsi.org/)
+2. [The Cancer Imaging Archive](https://www.acrdsi.org/DSI-Services/Define-AI/Use-Cases/Kidney-Stone-Detection-on-CT)
+3. [TigerLily: Finding drug interactions in silico with the Graph](https://arxiv.org/pdf/2204.08206.pdf)
+4. [TigerLily: Finding drug interactions in silico with the Graph](https://github.com/benedekrozemberczki/tigerlily)
 - How it fits into medicine and the healthcare system.
 - How to use AI to solve 2D Imaging problems 
 - How to take AI from the bench to bedside to be used by doctors to improve patient lives
