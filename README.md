@@ -610,3 +610,10 @@ An instrument, apparatus, implement, machine, contrivance, implant, in vitro rea
 * diagnosis, monitoring, treatment, alleviation of, or compensation for, an injury or disability,
 * investigation, replacement or modification of the anatomy or of a physiological or pathological process or state,
 * providing information by means of in vitro examination of specimens derived from the human body, including organ, blood and tissue donations,
+
+The pattern here - something that is built with the purpose of diagnosing, preventing, or treating the disease is potentially a medical device that should conform with certain standards of safety and engineering rigor. The degree of this rigor that the regulatory bodies require depends on the risk class of the said device. Thus, for a device with lesser risk class (like a sterile bandage) often it is sufficient to just notify the respective regulatory body that device is being launched into the market while with high-risk devices (like an implantable defibrillator) there are requirements to clinical testing and engineering practices.
+
+While “medical device” may sound like something that does not have much to do with software, the regulatory bodies actually include software in this notion as well, often operating with concepts of “software-as-a-medical-device”. Sometimes a distinction is made between “medical device with embedded software” (like a CT scanner) or “software-only medical device” (like a PACS).
+
+Key thing that determines whether something is a medical device or not, and what class it is, is its ”intended use”. The same device may have different risk classes (or not qualify as a medical device at all) depending on what use you have in mind for it. A key takeaway here is that the presence of an “AI algorithm” in a system that is used by clinicians does not automatically make it a medical device. You need to articulate the intended use of the system before you try to find out what the regulatory situation is for your product.
+
