@@ -626,3 +626,5 @@ Key thing that determines whether something is a medical device or not, and what
 - HIPAA - Health Insurance Portability and Accountability Act - key legislation in the USA that among other things defines the concept of Protected Health Information and rules around handling it.
 - GDPR - General Data Protection Regulation - European legislation that defines the principles of handling personal data, including health data.
 
+[ANONYMIZING DICOM](https://github.com/udacity/nd320-c3-3d-med-imaging/blob/master/deploy-algorithms-in-real-world/exercises/3-anonymization/solution/Anonymization.ipynb)
+
