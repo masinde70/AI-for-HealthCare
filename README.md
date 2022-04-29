@@ -630,6 +630,11 @@ Key thing that determines whether something is a medical device or not, and what
 
 
 ## Further resources 
+1. [FDA’s guidance for software validation](https://www.fda.gov/media/73141/download)
+2. [webinars on all things medical](https://www.acr.org/Member-Resources/rfs/Journal-Club)
+3. [Article by American Collage of Radiology](https://www.acadrad.org/wp-content/uploads/2019/06/NIBIB-workshop-1.pdf)
+4. [Proposed Regulatory Framework for Modifications to Artificial Intelligence/Machine learning(AI/ML) Based Software as a Medical Device](https://www.fda.gov/media/122535/download)
+
 
 
 ### Vocabulary
