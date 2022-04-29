@@ -596,14 +596,14 @@ Interfaces with existing systems. If your algorithm produces an output - where d
 
 
 ### Regulatory Landscape
-#### FDA
+#### FDA [MEDICAL DEVICE](https://www.fda.gov/medical-devices/classify-your-medical-device/how-determine-if-your-product-medical-device)
 An instrument, apparatus, implement, machine, contrivance, implant, in vitro reagent, or other similar or related article, including a component part, or accessory which is:
 
 1. recognized in the official National Formulary, or the United States Pharmacopoeia, or any supplement to them,
 2. intended for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment, or prevention of disease, in man or other animals, or
 3. intended to affect the structure or any function of the body of man or other animals, and which does  not achieve its primary intended purposes through chemical action within or on the body of man or other animals …
 
-#### European Medical Device Regulation (MDR)
+#### [European Medical Device Regulation (MDR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2017.117.01.0001.01.ENG&toc=OJ:L:2017:117:TOC)
 ‘medical device’ means any instrument, apparatus, appliance, software, implant, reagent, material or other article intended by the manufacturer to be used, alone or in combination, for human beings for one or more of the following specific medical purposes:
 
 * diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease,
