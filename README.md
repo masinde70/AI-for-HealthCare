@@ -593,3 +593,20 @@ Interfaces with existing systems. If your algorithm produces an output - where d
 2. [Understanding and Using DICOM, the Data Interchange Standard for Biomedical Imaging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC61235/)
 3. [As usual, DICOM standard is a great reference for DICOM networking](https://dicom.nema.org/medical/dicom/2020a/output/chtml/part07/sect_7.5.html#sect_7.5.1)
 4. [dcmtk tool](https://dcmtk.org/)
+
+
+### Regulatory Landscape
+#### FDA
+An instrument, apparatus, implement, machine, contrivance, implant, in vitro reagent, or other similar or related article, including a component part, or accessory which is:
+
+1. recognized in the official National Formulary, or the United States Pharmacopoeia, or any supplement to them,
+2. intended for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment, or prevention of disease, in man or other animals, or
+3. intended to affect the structure or any function of the body of man or other animals, and which does  not achieve its primary intended purposes through chemical action within or on the body of man or other animals …
+
+#### European Medical Device Regulation (MDR)
+‘medical device’ means any instrument, apparatus, appliance, software, implant, reagent, material or other article intended by the manufacturer to be used, alone or in combination, for human beings for one or more of the following specific medical purposes:
+
+* diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease,
+* diagnosis, monitoring, treatment, alleviation of, or compensation for, an injury or disability,
+* investigation, replacement or modification of the anatomy or of a physiological or pathological process or state,
+* providing information by means of in vitro examination of specimens derived from the human body, including organ, blood and tissue donations,
