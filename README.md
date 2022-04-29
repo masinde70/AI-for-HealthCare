@@ -602,6 +602,10 @@ An instrument, apparatus, implement, machine, contrivance, implant, in vitro rea
 1. recognized in the official National Formulary, or the United States Pharmacopoeia, or any supplement to them,
 2. intended for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment, or prevention of disease, in man or other animals, or
 3. intended to affect the structure or any function of the body of man or other animals, and which does  not achieve its primary intended purposes through chemical action within or on the body of man or other animals …
+4. [FDA Clearances](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm)
+5. [FDA Clearances](https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192437.pdf)
+6. [FDA quality management](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfCFR/CFRSearch.cfm?CFRPart=820)
+
 
 #### [European Medical Device Regulation (MDR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2017.117.01.0001.01.ENG&toc=OJ:L:2017:117:TOC)
 ‘medical device’ means any instrument, apparatus, appliance, software, implant, reagent, material or other article intended by the manufacturer to be used, alone or in combination, for human beings for one or more of the following specific medical purposes:
@@ -610,6 +614,7 @@ An instrument, apparatus, implement, machine, contrivance, implant, in vitro rea
 * diagnosis, monitoring, treatment, alleviation of, or compensation for, an injury or disability,
 * investigation, replacement or modification of the anatomy or of a physiological or pathological process or state,
 * providing information by means of in vitro examination of specimens derived from the human body, including organ, blood and tissue donations,
+* [European and Canadian regulators require compliance](https://www.iso.org/standard/59752.html)
 
 The pattern here - something that is built with the purpose of diagnosing, preventing, or treating the disease is potentially a medical device that should conform with certain standards of safety and engineering rigor. The degree of this rigor that the regulatory bodies require depends on the risk class of the said device. Thus, for a device with lesser risk class (like a sterile bandage) often it is sufficient to just notify the respective regulatory body that device is being launched into the market while with high-risk devices (like an implantable defibrillator) there are requirements to clinical testing and engineering practices.
 
