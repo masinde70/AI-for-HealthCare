@@ -1,6 +1,10 @@
 ### AI-for-HealthCare
 Note: when choosing a medical imaging problem to be solved by machine learning, it is tempting to assume that automated detection of certain conditions would be the most valuable thing to solve. However, this is not usually the case. Quite often detecting if a condition is present is not so difficult for a human observer who is already looking for such a condition. Things that bring most value usually lie in the area of productivity increase. Helping prioritize the more important exams, helping focus the attention of a human reader on small things or speed up tedious tasks usually is much more valuable. Therefore it is important to understand the clinical use case that the algorithm will be used well and think of end-user value first.
 
+### 50 Surprising Statistics Every Healthcare Stakeholder Must Know
+1. [50 Surprising Statistics Every Healthcare Stakeholder Must Know](https://www.osplabs.com/insights/50-surprising-statistics-every-healthcare-stakeholder-must-know/)
+
+
 
 ### 2D medical Imaging 
 1. [FDA cleared AI medical products that are related to radiology and other imaging domains](https://aicentral.acrdsi.org/)
@@ -671,5 +675,8 @@ A few other fantastic uses of AI in EHR Include:
 * Analyzing data from clinical trials
 * Predicting a diagnosis for patients
 
+### Many companies are doing great things with healthcare data
+1. [Google Cloud Healthcare API](https://cloud.google.com/healthcare-api/docs/concepts/projects-datasets-data-stores)
+2. [Google Health](https://health.google/)
 
 
