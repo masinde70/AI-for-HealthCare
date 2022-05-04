@@ -654,6 +654,10 @@ Key thing that determines whether something is a medical device or not, and what
 * GDPR - General Data Protection Regulation - European legislation that defines the principles of handling personal data, including health data.
 
 # EHR
+EHR data is the data being collected when we see a doctor, pick up a prescription at the pharmacy, or even from a visit to the dentist. These are just a few of the examples where EHR data is collected.
+
+This data is used for a variety of use-cases. From personalizing healthcare to discovering novel drugs and treatments to helping providers diagnose patients better and reduce medical errors.
+
 * Health Record: A patient's documentation of their healthcare encounters and the data created by the encounters across time
 * EHR: Electronic Health Record
 * HIPAA: Health Insurance Portability and Accountability Act
@@ -666,5 +670,6 @@ A few other fantastic uses of AI in EHR Include:
 * Mapping of our genes in Genomics
 * Analyzing data from clinical trials
 * Predicting a diagnosis for patients
+
 
 
