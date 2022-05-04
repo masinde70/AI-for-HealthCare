@@ -680,3 +680,7 @@ A few other fantastic uses of AI in EHR Include:
 2. [Google Health](https://health.google/)
 
 
+### Healthcare data 
+1. [Notification of Enforcement Discretion Regarding HIPAA Civil Money Penalties HIPAA Fines](https://www.federalregister.gov/documents/2019/04/30/2019-08530/notification-of-enforcement-discretion-regarding-hipaa-civil-money-penalties)
+2. 
+
