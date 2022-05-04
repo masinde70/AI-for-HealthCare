@@ -654,5 +654,17 @@ Key thing that determines whether something is a medical device or not, and what
 * GDPR - General Data Protection Regulation - European legislation that defines the principles of handling personal data, including health data.
 
 # EHR
+* Health Record: A patient's documentation of their healthcare encounters and the data created by the encounters across time
+* EHR: Electronic Health Record
+* HIPAA: Health Insurance Portability and Accountability Act
+EHR is also commonly referred to as
+
+EMR: Electronic Medical Record
+#### AI in EHR Opportunities
+A few other fantastic uses of AI in EHR Include:
+
+* Mapping of our genes in Genomics
+* Analyzing data from clinical trials
+Predicting a diagnosis for patients
 
 
