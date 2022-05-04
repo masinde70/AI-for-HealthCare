@@ -665,6 +665,6 @@ A few other fantastic uses of AI in EHR Include:
 
 * Mapping of our genes in Genomics
 * Analyzing data from clinical trials
-Predicting a diagnosis for patients
+* Predicting a diagnosis for patients
 
 
