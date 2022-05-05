@@ -745,4 +745,10 @@ This stands for “cross-industry standard process for data mining” and is a c
 EDA and CRISP-DM
 As you can see from the image above EDA falls in the Data Understanding phase of CRISP-DM
 
+### Reasons EDA is important
+* EDA can enable you to discover features or data transformations/aggregations that might have data leakage. This can save a tremendous amount of time and prevent you from building a flawed model.
+* EDA can help you better translate and define modeling objectives and corresponding evaluation metrics from a machine learning/data science and business perspective.
+* EDA can help inform strategies for handling missing/null/zero valued data. This is a common issue that you will encounter with EHR data that you will have missing values and have to determine imputing strategies accordingly.
+* EDA can help to identify subsets of features to utilize for feature engineering and modeling along with appropriate feature transformations based off of type (e.g. categorical vs numerical features)
+
 
