@@ -1,0 +1,30 @@
+Designing an FDA Validation Plan Exercise
+You just learned about how to design a validation plan for an algorithm that's been developed for 2D medical imaging. This is the final exercise of this course, and so this exercise will try to synthesize a lot of what you've learned and prepared you for your final project. Below are intended use statements with some indications for use and algorithmic limitations of two separate algorithms, both used for screening mammography studies.
+
+Algorithm A:
+Intended Use: Assisting a radiologist with classifying breast density
+
+Indications for Use: indicated for use in screening mammography studies in women of ages 40-80. Not indicated for use in women with artificial implants.
+
+Hint: Breast density falls into four categories: A, B, C, D and can only be determined from an image. It is notoriously difficult to determine breast density on a mammography study, but that's because there is no "correct" answer. It's a sliding scale that radiologists tend to disagree on when a patient is right on the border between two density levels. Also, in the real world, breast densities A & D are both about 10% prevalent, while breast densities B & C are both about 40% prevalent.
+
+Algorithm B:
+Intended Use: Assisting a radiologist with identifying breast abnormalities.
+
+Indications for Use: indicated for use in screening mammography studies in women for ages 40-80. Not indicated for women with a prior history of breast cancer.
+
+Hint: Radiologists are really good at detecting a wide range of abnormalities on screening mammograms, and a radiologists' read is considered the gold standard for determining 'normal' vs. 'abnormal' for an imaging study.
+
+In the free response section, compare and contrast how you would do the following for your FDA validation plan for each of the two algorithms:
+Define the clinical population needed for the validation data set that you obtain from your clinical partner
+Choose the method of obtaining a ground truth
+
+For both algorithms, I would want to collect a validation set that was made up of screening mammography studies only for women between the ages of 40 and 80.
+
+To validate algorithm A, however, I would want to make sure that there were no implants, and I would also want to make sure that the distribution of breast densities A, B, C, and D was reflective of the distribution of those densities that are seen in the real world.
+
+To validate algorithm B, I would want to make sure that my validation data set did not contain any women who had a prior history of breast cancer.
+
+The silver standard approach of using several radiologists would be more optimal for Algorithm A because I gave you the hint that it’s really hard for radiologists to agree on breast density labels.
+
+For Algorithm B, a single radiologist’s labels would probably suffice, because I gave you the hint that they’re really good at labeling ‘normal’ v. ‘abnormal.’
