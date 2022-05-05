@@ -684,3 +684,7 @@ A few other fantastic uses of AI in EHR Include:
 1. [Notification of Enforcement Discretion Regarding HIPAA Civil Money Penalties HIPAA Fines](https://www.federalregister.gov/documents/2019/04/30/2019-08530/notification-of-enforcement-discretion-regarding-hipaa-civil-money-penalties)
 2. 
 
+## PHI
+Protected Health information
+Is the part of HIPAA that protects the transmission of certain types of personally identifiable information such as name, address, and other info.
+Certain information in an electronic medical record is considered PHI and must comply with HIPAA standards around data security and privacy. This informs not only how you transmit and store data but also data usage rights and restrictions around building models for other purposes than the original use.
