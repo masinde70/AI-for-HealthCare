@@ -716,3 +716,16 @@ The second method is called Safe Harbor and it refers to the removal of 18 ident
 Limited Latitude: Very limited scope of work. EHR Data can only be used for the purpose granted.
 [De-Identification Rationale](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#rationale)
 
+
+## Key takeaways
+
+- Be aware of what you do not know
+- Your organization likely has compliance protocols and rules
+- There is required HIPPPA training for those is the US
+
+###### Personal Learning
+
+- privacy is evolving
+- Industrial methods are gaining more acceptance across different fields
+- Healthcare methods are also gaining accetance
+
