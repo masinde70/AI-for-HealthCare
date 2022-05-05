@@ -702,3 +702,4 @@ Other Covered Entities:
      * Safeguard data against misuse
      * Comply with other requirements of the covered entity under HIPAA Privacy Rule
 - Business Associates Agreement/Addendum (BAA): this is the contract between a covered entity and BA
+[Covered Entites Sample Business Associate Agreement Business Associate Guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)
