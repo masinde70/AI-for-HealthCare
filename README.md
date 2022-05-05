@@ -703,3 +703,16 @@ Other Covered Entities:
      * Comply with other requirements of the covered entity under HIPAA Privacy Rule
 - Business Associates Agreement/Addendum (BAA): this is the contract between a covered entity and BA
 [Covered Entites Sample Business Associate Agreement Business Associate Guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)
+
+## De-identifying Dataset
+De-identifying a dataset refers to the removal of identifying fields like name, address from a dataset. De-Identification is done to reduce privacy risks to individuals and support the secondary use of data for research and such.
+
+This is not something you should be doing on your own. HIPAA has two ways that you can use to de-identify a dataset.
+
+The first method is the Expert Determination Method and this is done by a statistician that determines there is a small risk that an individual could be identified.
+
+The second method is called Safe Harbor and it refers to the removal of 18 identifiers like name, zip code, etc.
+
+Limited Latitude: Very limited scope of work. EHR Data can only be used for the purpose granted.
+[De-Identification Rationale](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#rationale)
+
