@@ -730,7 +730,7 @@ Limited Latitude: Very limited scope of work. EHR Data can only be used for the 
 - Healthcare methods are also gaining accetance
 
 ### Data Schema Analysis
-Data Schema Analysis
+[CRISP-DM What is Exploratory Data Analysis in Python](https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce Schema Analysis)
 #### EDA:
 Exploratory Data Analysis
 
