@@ -688,3 +688,17 @@ A few other fantastic uses of AI in EHR Include:
 Protected Health information
 Is the part of HIPAA that protects the transmission of certain types of personally identifiable information such as name, address, and other info.
 Certain information in an electronic medical record is considered PHI and must comply with HIPAA standards around data security and privacy. This informs not only how you transmit and store data but also data usage rights and restrictions around building models for other purposes than the original use.
+
+## Covered Entities
+Covered Entities: are a group of industry organizations defined by HIPAA to be one of three groups: health insurance plans, providers, or clearinghouses. You can see from the table the types of entities in each category.
+
+These groups transmit protected health information and are subject to HIPAA regulations regarding these transmissions.
+
+Other Covered Entities:
+
+- Business Associates: A business associate is a person or entity that performs certain functions or activities that involve the use or disclosure of protected health information on behalf of, or provides services to, a covered entity.
+   * Covered entities can disclose to BAs under Privacy Rule
+     * Only for a purpose allowed by the covered entity
+     * Safeguard data against misuse
+     * Comply with other requirements of the covered entity under HIPAA Privacy Rule
+- Business Associates Agreement/Addendum (BAA): this is the contract between a covered entity and BA
