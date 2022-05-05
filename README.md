@@ -729,3 +729,17 @@ Limited Latitude: Very limited scope of work. EHR Data can only be used for the 
 - Industrial methods are gaining more acceptance across different fields
 - Healthcare methods are also gaining accetance
 
+### Data Schema Analysis
+Data Schema Analysis
+#### EDA:
+Exploratory Data Analysis
+
+EDA is a step in the data science process that is often overlooked for the modeling and evaluation phase that can be easier to quantify and benchmark.
+
+#### CRISP-DM:
+This stands for “cross-industry standard process for data mining” and is a common framework used for data science projects and includes a series of steps from business understanding to deployment.
+
+EDA and CRISP-DM
+As you can see from the image above EDA falls in the Data Understanding phase of CRISP-DM
+
+
