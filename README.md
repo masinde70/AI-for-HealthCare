@@ -741,7 +741,7 @@ EDA is a step in the data science process that is often overlooked for the model
 
 #### CRISP-DM:
 This stands for “cross-industry standard process for data mining” and is a common framework used for data science projects and includes a series of steps from business understanding to deployment.
-![](Images/plugin.jpeg)
+![](HealthAI/Images/l1-ehr-data-security-analysis-5.jpeg)
 
 EDA and CRISP-DM
 As you can see from the image above EDA falls in the Data Understanding phase of CRISP-DM
