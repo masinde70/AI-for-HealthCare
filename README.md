@@ -741,6 +741,7 @@ EDA is a step in the data science process that is often overlooked for the model
 
 #### CRISP-DM:
 This stands for “cross-industry standard process for data mining” and is a common framework used for data science projects and includes a series of steps from business understanding to deployment.
+![](HealthAI/Images/l1-ehr-data-security-analysis-5.jpeg)
 
 EDA and CRISP-DM
 As you can see from the image above EDA falls in the Data Understanding phase of CRISP-DM
@@ -751,4 +752,8 @@ As you can see from the image above EDA falls in the Data Understanding phase of
 * EDA can help inform strategies for handling missing/null/zero valued data. This is a common issue that you will encounter with EHR data that you will have missing values and have to determine imputing strategies accordingly.
 * EDA can help to identify subsets of features to utilize for feature engineering and modeling along with appropriate feature transformations based off of type (e.g. categorical vs numerical features)
 
+### Value Distributions Review
+* Normal is the well-known bell-curve that most people are familiar with and is also referred to as a Gaussian distribution
+* The uniform distribution is where the unique values have almost the same frequency and this is important b/c this might indicate some issue with the data
+* Skewed/unbalanced data distributions as the name indicates are where a smaller subset of values or a single value dominates
 
