@@ -756,4 +756,4 @@ As you can see from the image above EDA falls in the Data Understanding phase of
 * Normal is the well-known bell-curve that most people are familiar with and is also referred to as a Gaussian distribution
 * The uniform distribution is where the unique values have almost the same frequency and this is important b/c this might indicate some issue with the data
 * Skewed/unbalanced data distributions as the name indicates are where a smaller subset of values or a single value dominates
-
+![](HealthAI/Images/distribution.jpeg)
