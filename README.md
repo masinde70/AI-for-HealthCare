@@ -757,3 +757,17 @@ As you can see from the image above EDA falls in the Data Understanding phase of
 * The uniform distribution is where the unique values have almost the same frequency and this is important b/c this might indicate some issue with the data
 * Skewed/unbalanced data distributions as the name indicates are where a smaller subset of values or a single value dominates
 ![](HealthAI/Images/distribution.jpeg)
+
+### Missing Values and Outliers
+Missing values are especially common in healthcare where you may have incomplete records or some fields are sparsely populated
+
+### Missing Data Classification
+MCAR which stands for Missing Completely at Random. This means that the data is missing due to something unrelated to the data and there is no systematic reason for the missing data. In other words, there is an equal probability that data is missing for all cases. This is often due to some instrumentation like a broken instrument or process issue where some of the data is randomly missing.
+
+#### MAR 
+refers to Missing at Random and this is the opposite case where there is some systematic relationship between data and the probability of missing data. For example, there might be some missing demographics choices in surveys.
+
+#### MNAR
+ is a Missing Not at Random and this usually means there is a relationship between a value in the dataset and the missing values.
+
+Understanding why data is missing help with choosing the best imputing method to fill or drop the values in your dataset.
