@@ -771,3 +771,12 @@ refers to Missing at Random and this is the opposite case where there is some sy
  is a Missing Not at Random and this usually means there is a relationship between a value in the dataset and the missing values.
 
 Understanding why data is missing help with choosing the best imputing method to fill or drop the values in your dataset.
+
+
+´´´def check_for_missing_and_null(df):
+    null_df = pd.DataFrame({'columns': df.columns, 
+                            'percent_null': df.isnull().sum() * 100 / len(df), 
+                           'percent_zero': df.isin([0]).sum() * 100 / len(df)
+                           } )
+    return null_df 
+´´´
