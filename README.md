@@ -780,3 +780,7 @@ Understanding why data is missing help with choosing the best imputing method to
                            } )
     return null_df 
 ```
+### Missing data resources
+1. [Amputation Methods](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
+2. [Advanced Amputation Methods](https://www.sciencedirect.com/science/article/pii/S2352914819302783)
+3. 
