@@ -784,3 +784,13 @@ Understanding why data is missing help with choosing the best imputing method to
 1. [Amputation Methods](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
 2. [Advanced Amputation Methods](https://www.sciencedirect.com/science/article/pii/S2352914819302783)
 3. 
+
+### High Cardinality
+#### Cardinality:
+refers to the number of unique values that a feature has and is relevant to EHR datasets because there are code sets such as diagnosis codes in the order of tens of thousands of unique codes. This only applies to categorical features and the reason this is a problem is that it can increase dimensionality and makes training models much more difficult and time-consuming.
+
+### How do we define a field with high cardinality?
+
+Determine if it is a categorical feature.
+Determine if it has a high number of unique values. This can be a bit subjective but we can probably agree that for a field with 2 unique values would not have high cardinality whereas a field like diagnosis codes might have tens of thousands of unique values would have high cardinality.
+Use the nunique() method to return the number of unique values for the categorical categories above.
