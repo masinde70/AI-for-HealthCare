@@ -785,6 +785,8 @@ Understanding why data is missing help with choosing the best imputing method to
 2. [Advanced Amputation Methods](https://www.sciencedirect.com/science/article/pii/S2352914819302783)
 3. 
 
+### Data set
+[Data set](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/)
 ### High Cardinality
 #### Cardinality:
 Refers to the number of unique values that a feature has and is relevant to EHR datasets because there are code sets such as diagnosis codes in the order of tens of thousands of unique codes. This only applies to categorical features and the reason this is a problem is that it can increase dimensionality and makes training models much more difficult and time-consuming.
@@ -799,3 +801,6 @@ Use the nunique() method to return the number of unique values for the categoric
 The reason that demographic analysis is so important, especially in healthcare, is that we need our clinical trials and machine learning models to be able to representative to general population. While this is not always completely possible given limited trials and very rare conditions it is something we need to strive for and identify as early as possible if there may be an issue.
 
 If we don't have a properly representative demographic dataset, we wouldn't know how a drug or prediction might impact a certain age, race or gender which could lead to significant issues for those not represented.
+
+### Why is it important to do a demographic analysis on your datasets?
+While there are many reasons for this you need to make sure that you datasets will be representative of the population you will be attempting serve. If it is not, the models created later will not generalize well in production.
