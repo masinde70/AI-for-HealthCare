@@ -863,3 +863,15 @@ Again we will go over this more in-depth in the next section, but see if you can
 The answer for this one is Z34.03. Where Z34 has to do with Encounter for supervision of normal first pregnancy, and the 03 indicates the 3rd trimester.
 ```
 
+### Diagnosis Code Prioritization
+At a high level, it is important to distinguish what code is taking up the most resources or is the most critical and there are few terms that you should become familiar with.
+
+## Primary Diagnosis Code: The code that takes up the most resources to treat.
+Principal Diagnosis Code: The diagnosis that is found after hospitalization to be the one that is chiefly responsible.
+This can be an important distinction since the admitting diagnosis code can widely differ from the final, Principal Diagnosis. For the most part, these terms interchangeably but it's good to be aware of the differences and the need to dig into the details when necessary.
+
+### Secondary Diagnosis Codes: The other diagnosis codes listed on an encounter.
+For example, if a patient were to have a knee replacement surgery but had type 2 diabetes as a prior condition, the secondary diagnosis code of type 2 diabetes would be included in the medical record.
+
+Note: Secondary diagnoses codes can include many additional codes
+
