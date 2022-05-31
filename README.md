@@ -820,3 +820,24 @@ While there are many reasons for this you need to make sure that you datasets wi
   * Using CCS
 
 There are many different providers and EHR systems around the world. There needs to be a standard way to encode common diagnoses, medications, procedures, and lab test results across all these providers and systems. We will focus on some of the most common code sets that allow for some of the most high-value analysis
+
+
+### Diagnosis Codes Key Points
+In Healthcare, the different diagnosis code sets are extremely important and can sometimes be tricky to deal with. But don't worry, when you are done with this section, you'll be a able to crack the code like a pro!
+
+## What is a diagnosis?
+Let’s imagine that you see a doctor and you have some symptoms such as coughing and a stomach ache and then your doctor magically comes up with a diagnosis. As we will learn later this diagnosis is a key piece of information that connects so much of the encounter experience together.
+
+** ICD10
+ICD10: International Classification of Diseases 10
+
+** Also known as ICD10
+Standard developed by WHO: World Health Organization and in 10th revision
+ICD10-CM
+ICD10-CM: International Classification of Diseases 10 - Clinical Modification
+
+* Diagnosis code standard used in the U.S.
+
+Maintained by U.S. CDC
+Contains a wide variety of diseases and conditions
+Used for Medical claims, disease epidemic, and mortality tracking
