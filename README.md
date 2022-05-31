@@ -857,7 +857,9 @@ Finally, the third part is the extension which is the last character and can be 
 2. [Code Guidelines](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2019-ICD10-Coding-Guidelines-.pdf)
 3. [free codes](https://www.icd10data.com/ICD10CM/)
 
-´´´
+```
 Again we will go over this more in-depth in the next section, but see if you can use your intuition to figure out the correct code for normal first pregnancy in the third trimester?
-´´´
+
+The answer for this one is Z34.03. Where Z34 has to do with Encounter for supervision of normal first pregnancy, and the 03 indicates the 3rd trimester.
+```
 
