@@ -807,3 +807,14 @@ While there are many reasons for this you need to make sure that you datasets wi
 
 
 ### EHR Code Sets
+* Diagnosis Codes
+   * IDC10-CM
+* Procedure Codes
+   * ICD10 - PCS
+   * CPT
+   * HCPCS
+* Medication Codes
+  * NDC Codes
+  * RXNorm
+* Using these codes to group and categorize your datasets
+  * Using CCS
