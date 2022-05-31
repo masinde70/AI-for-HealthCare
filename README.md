@@ -818,3 +818,5 @@ While there are many reasons for this you need to make sure that you datasets wi
   * RXNorm
 * Using these codes to group and categorize your datasets
   * Using CCS
+
+There are many different providers and EHR systems around the world. There needs to be a standard way to encode common diagnoses, medications, procedures, and lab test results across all these providers and systems. We will focus on some of the most common code sets that allow for some of the most high-value analysis
