@@ -841,3 +841,15 @@ ICD10-CM: International Classification of Diseases 10 - Clinical Modification
 Maintained by U.S. CDC
 Contains a wide variety of diseases and conditions
 Used for Medical claims, disease epidemic, and mortality tracking
+
+### ICD10- CM Code Structure
+[ XXX ].XXX X
+The first part is the category of the diagnosis and it is the first three characters and could be an S code like the injury category. There are 21 different categories and these range from the disease of the respiratory system to injury, poisoning, and certain other consequences of external causes.
+
+### XXX.[ XXX ] X
+The Second is the etiology, anatomic site, and manifestation part which can be up to 3 more characters and is essentially the cause for a condition or disease or the location of the condition.
+
+### XXX.XXX [ X ]
+Finally, the third part is the extension which is the last character and can be tricky b/c it can often be null or has an X placeholder. It is often used with injury-related codes referring to the episode of care.
+
+
