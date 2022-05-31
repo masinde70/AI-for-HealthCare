@@ -804,3 +804,6 @@ If we don't have a properly representative demographic dataset, we wouldn't know
 
 ### Why is it important to do a demographic analysis on your datasets?
 While there are many reasons for this you need to make sure that you datasets will be representative of the population you will be attempting serve. If it is not, the models created later will not generalize well in production.
+
+
+### EHR Code Sets
