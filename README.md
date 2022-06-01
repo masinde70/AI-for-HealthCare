@@ -875,6 +875,6 @@ For example, if a patient were to have a knee replacement surgery but had type 2
 
 Note: Secondary diagnoses codes can include many additional codes
 ## Key Points
-One great method for grouping codes is using the  ´´´str.startswith()´´´ method. While there are a lot of medical codes, the decision to provide a clear categorization system works in your favor here.
+One great method for grouping codes is using the  ```str.startswith()``` method. While there are a lot of medical codes, the decision to provide a clear categorization system works in your favor here.
 
-Essentially you use str.startswith() by providing the number of characters you are looking for in your code. str.startswith('4') or str.startswith('D35'). While this is probably just a good review for you, the important part here is that you know how to find the right codes to search for in the first place.
+Essentially you use ```str.startswith()``` by providing the number of characters you are looking for in your code. ```str.startswith('4')``` or ```str.startswith('D35')```. While this is probably just a good review for you, the important part here is that you know how to find the right codes to search for in the first place.
