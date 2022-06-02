@@ -916,3 +916,6 @@ The graphic above shows some additional information about 3 of the important cod
   * Device used for a procedure
 
 ## Additional Resources
+1. [PCS Procedure code system](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2014-pcs-procedure-coding-system.pdf)
+2. [Medicare Coding](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2016-PCS-Slides.pdf)
+![](HealthAI/Images/l2-ehr-code-sets-4.jpg)
