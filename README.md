@@ -881,11 +881,12 @@ Essentially you use ```str.startswith()``` by providing the number of characters
 
 
 ## Procedure Codes
+![](HealthAI/Images/l2-ehr-code-sets-3.jpg)
  **Procedure Codes:** the categorization of the medical codes during an encounter. It's important to note if a procedure is inpatient or outpatient.
  
 **Key Procedure Code Sets**
 The graphic above shows some additional information about 3 of the important code sets. Here are the key points about each of them.
-
+![](HealthAI/Images/l2-ehr-code-sets-6.jpg)
 * **ICD10 PCS:** Procedure Coding Systems
    * Only for Inpatient
    * 72,000+ codes as of 2019
