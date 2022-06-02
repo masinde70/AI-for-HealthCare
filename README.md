@@ -785,12 +785,121 @@ Understanding why data is missing help with choosing the best imputing method to
 2. [Advanced Amputation Methods](https://www.sciencedirect.com/science/article/pii/S2352914819302783)
 3. 
 
+### Data set
+[Data set](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/)
 ### High Cardinality
 #### Cardinality:
-refers to the number of unique values that a feature has and is relevant to EHR datasets because there are code sets such as diagnosis codes in the order of tens of thousands of unique codes. This only applies to categorical features and the reason this is a problem is that it can increase dimensionality and makes training models much more difficult and time-consuming.
+Refers to the number of unique values that a feature has and is relevant to EHR datasets because there are code sets such as diagnosis codes in the order of tens of thousands of unique codes. This only applies to categorical features and the reason this is a problem is that it can increase dimensionality and makes training models much more difficult and time-consuming.
 
 ### How do we define a field with high cardinality?
 
 Determine if it is a categorical feature.
 Determine if it has a high number of unique values. This can be a bit subjective but we can probably agree that for a field with 2 unique values would not have high cardinality whereas a field like diagnosis codes might have tens of thousands of unique values would have high cardinality.
 Use the nunique() method to return the number of unique values for the categorical categories above.
+
+### Demographic Analysis
+The reason that demographic analysis is so important, especially in healthcare, is that we need our clinical trials and machine learning models to be able to representative to general population. While this is not always completely possible given limited trials and very rare conditions it is something we need to strive for and identify as early as possible if there may be an issue.
+
+If we don't have a properly representative demographic dataset, we wouldn't know how a drug or prediction might impact a certain age, race or gender which could lead to significant issues for those not represented.
+
+### Why is it important to do a demographic analysis on your datasets?
+While there are many reasons for this you need to make sure that you datasets will be representative of the population you will be attempting serve. If it is not, the models created later will not generalize well in production.
+
+
+### EHR Code Sets
+* Diagnosis Codes
+   * IDC10-CM
+* Procedure Codes
+   * ICD10 - PCS
+   * CPT
+   * HCPCS
+* Medication Codes
+  * NDC Codes
+  * RXNorm
+* Using these codes to group and categorize your datasets
+  * Using CCS
+
+There are many different providers and EHR systems around the world. There needs to be a standard way to encode common diagnoses, medications, procedures, and lab test results across all these providers and systems. We will focus on some of the most common code sets that allow for some of the most high-value analysis
+
+
+### Diagnosis Codes Key Points
+In Healthcare, the different diagnosis code sets are extremely important and can sometimes be tricky to deal with. But don't worry, when you are done with this section, you'll be a able to crack the code like a pro!
+
+## What is a diagnosis?
+Let’s imagine that you see a doctor and you have some symptoms such as coughing and a stomach ache and then your doctor magically comes up with a diagnosis. As we will learn later this diagnosis is a key piece of information that connects so much of the encounter experience together.
+
+** ICD10
+ICD10: International Classification of Diseases 10
+
+** Also known as ICD10
+Standard developed by WHO: World Health Organization and in 10th revision
+ICD10-CM
+ICD10-CM: International Classification of Diseases 10 - Clinical Modification
+
+* Diagnosis code standard used in the U.S.
+
+Maintained by U.S. CDC
+Contains a wide variety of diseases and conditions
+Used for Medical claims, disease epidemic, and mortality tracking
+
+### ICD10- CM Code Structure
+[ XXX ].XXX X
+The first part is the category of the diagnosis and it is the first three characters and could be an S code like the injury category. There are 21 different categories and these range from the disease of the respiratory system to injury, poisoning, and certain other consequences of external causes.
+
+### XXX.[ XXX ] X
+The Second is the etiology, anatomic site, and manifestation part which can be up to 3 more characters and is essentially the cause for a condition or disease or the location of the condition.
+
+### XXX.XXX [ X ]
+Finally, the third part is the extension which is the last character and can be tricky b/c it can often be null or has an X placeholder. It is often used with injury-related codes referring to the episode of care.
+
+### Resources
+1. [Code structure](https://library.ahima.org/doc?oid=106177#.Xm70u5NKhQI)
+2. [Code Guidelines](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2019-ICD10-Coding-Guidelines-.pdf)
+3. [free codes](https://www.icd10data.com/ICD10CM/)
+
+```
+Again we will go over this more in-depth in the next section, but see if you can use your intuition to figure out the correct code for normal first pregnancy in the third trimester?
+
+The answer for this one is Z34.03. Where Z34 has to do with Encounter for supervision of normal first pregnancy, and the 03 indicates the 3rd trimester.
+```
+
+### Diagnosis Code Prioritization
+At a high level, it is important to distinguish what code is taking up the most resources or is the most critical and there are few terms that you should become familiar with.
+
+## Primary Diagnosis Code: The code that takes up the most resources to treat.
+Principal Diagnosis Code: The diagnosis that is found after hospitalization to be the one that is chiefly responsible.
+This can be an important distinction since the admitting diagnosis code can widely differ from the final, Principal Diagnosis. For the most part, these terms interchangeably but it's good to be aware of the differences and the need to dig into the details when necessary.
+
+### Secondary Diagnosis Codes: The other diagnosis codes listed on an encounter.
+For example, if a patient were to have a knee replacement surgery but had type 2 diabetes as a prior condition, the secondary diagnosis code of type 2 diabetes would be included in the medical record.
+
+Note: Secondary diagnoses codes can include many additional codes
+## Key Points
+One great method for grouping codes is using the  ```str.startswith()``` method. While there are a lot of medical codes, the decision to provide a clear categorization system works in your favor here.
+
+Essentially you use ```str.startswith()``` by providing the number of characters you are looking for in your code. ```str.startswith('4')``` or ```str.startswith('D35')```. While this is probably just a good review for you, the important part here is that you know how to find the right codes to search for in the first place.
+
+
+## Procedure Codes
+ **Procedure Codes:** the categorization of the medical codes during an encounter. It's important to note if a procedure is inpatient or outpatient.
+ 
+**Key Procedure Code Sets**
+The graphic above shows some additional information about 3 of the important code sets. Here are the key points about each of them.
+
+* **ICD10 PCS:** Procedure Coding Systems
+   * Only for Inpatient
+   * 72,000+ codes as of 2019
+   * Focus on medical and surgical
+* **CPT:** Current Procedural Terminology
+  * **Outpatient** focused but can apply to physician visits in ambulatory settings
+  * 10,000+ codes as of 2019
+  * Focus on professional services by physician
+* **HCPCS:** Healthcare Common Procedure Coding System
+    * Inpatient and outpatient
+    * Has 3 levels
+      * L1: CPT Codes
+      * L2: Non-physician services
+         * DME: Durable Medical Equipment
+         * Ambulatory Services
+         * Dental
+       * L3: Medicare/Medicaid related
