@@ -878,3 +878,29 @@ Note: Secondary diagnoses codes can include many additional codes
 One great method for grouping codes is using the  ```str.startswith()``` method. While there are a lot of medical codes, the decision to provide a clear categorization system works in your favor here.
 
 Essentially you use ```str.startswith()``` by providing the number of characters you are looking for in your code. ```str.startswith('4')``` or ```str.startswith('D35')```. While this is probably just a good review for you, the important part here is that you know how to find the right codes to search for in the first place.
+
+
+## Procedure Codes
+ **Procedure Codes:** the categorization of the medical codes during an encounter. It's important to note if a procedure is inpatient or outpatient.
+ 
+**Key Procedure Code Sets**
+The graphic above shows some additional information about 3 of the important code sets. Here are the key points about each of them.
+
+**ICD10 PCS:** Procedure Coding Systems
+  * Only for Inpatient
+  * 72,000+ codes as of 2019
+  * Focus on medical and surgical
+**CPT:** Current Procedural Terminology
+  * **Outpatient** focused but can apply to physician visits in ambulatory settings
+  * 10,000+ codes as of 2019
+  * Focus on professional services by physician
+HCPCS: Healthcare Common Procedure Coding System
+Inpatient and outpatient
+Has 3 levels
+L1: CPT Codes
+L2: Non-physician services
+DME: Durable Medical Equipment
+Ambulatory Services
+Dental
+L3: Medicare/Medicaid related
+We will focus on ICD-10 PCS and CPT codes, but it's good to be aware of HCPCS codes, too!
