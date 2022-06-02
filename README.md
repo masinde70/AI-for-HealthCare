@@ -828,13 +828,13 @@ In Healthcare, the different diagnosis code sets are extremely important and can
 ## What is a diagnosis?
 Let’s imagine that you see a doctor and you have some symptoms such as coughing and a stomach ache and then your doctor magically comes up with a diagnosis. As we will learn later this diagnosis is a key piece of information that connects so much of the encounter experience together.
 
-** ICD10
+**ICD10**
 ICD10: International Classification of Diseases 10
 
-** Also known as ICD10
+**Also known as ICD10**
 Standard developed by WHO: World Health Organization and in 10th revision
-ICD10-CM
-ICD10-CM: International Classification of Diseases 10 - Clinical Modification
+**ICD10-CM**
+  * ICD10-CM: International Classification of Diseases 10 - Clinical Modification
 
 * Diagnosis code standard used in the U.S.
 
