@@ -903,4 +903,14 @@ The graphic above shows some additional information about 3 of the important cod
          * DME: Durable Medical Equipment
          * Ambulatory Services
          * Dental
-       * L3: Medicare/Medicaid related
+      * L3: Medicare/Medicaid related
+      
+**ICD10-PCS Code Structure**
+* 7 alphanumeric characters [A-Z, 0-9]
+* 1st character is the Section
+  * Reference Section codes categories in the table above
+* Subsequent characters relate to the Section and give:
+  * Body System
+  * Body Part
+  * Approach
+  * Device used for a procedure
