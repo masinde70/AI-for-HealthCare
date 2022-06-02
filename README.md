@@ -919,3 +919,22 @@ The graphic above shows some additional information about 3 of the important cod
 1. [PCS Procedure code system](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2014-pcs-procedure-coding-system.pdf)
 2. [Medicare Coding](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2016-PCS-Slides.pdf)
 ![](HealthAI/Images/l2-ehr-code-sets-4.jpg)
+
+**CPT Codes**
+CPT codes have the following structure:
+* Up to 5 numbers
+* 3 Categories
+  * Category 1: Billable codes
+    * 10 sections largely split along biological systems which are broken out in the image above
+  
+  * Category 2:
+    * Five digits that end in F
+    * Non-billable
+    * Performance measure focused on physicals and patient history
+  * Category 3:
+    * Services and procedures using emerging technology
+## Resources
+1. [Understanding CPT Codes](https://www.aapc.com/resources/medical-coding/cpt.aspx)
+2. [CMS.gov Database Download for CPT Codes](https://www.cms.gov/medicare-coverage-database/search.aspx)
+3. [CMS.gov HCPCS Codes Information](https://www.cms.gov/Medicare/Coding/MedHCPCSGenInfo)
+4. [HCPCS Wikipedia](https://en.wikipedia.org/wiki/Healthcare_Common_Procedure_Coding_System)
