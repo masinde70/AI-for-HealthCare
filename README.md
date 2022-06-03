@@ -823,6 +823,8 @@ There are many different providers and EHR systems around the world. There needs
 
 
 ### Diagnosis Codes Key Points
+
+![](HealthAI/Images/l1-ehr-data-security-analysis-5.jpeg)
 In Healthcare, the different diagnosis code sets are extremely important and can sometimes be tricky to deal with. But don't worry, when you are done with this section, you'll be a able to crack the code like a pro!
 
 ## What is a diagnosis?
