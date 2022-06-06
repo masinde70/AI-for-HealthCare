@@ -1020,3 +1020,35 @@ Then you reduced cardinality of a dataset using procedure codes after learning m
 You should be able to break down medication codes too! You should also be able to apply your knowledge to deal with the challenges of working with medication code sets.
 Finally, you put all of this code knowledge to work by grouping and categorizing these code sets with CCS.
 I know that there was a lot of information in this lesson, but now it's time to move on to learning some magic to transform EHR Data! Into what? You'll have to head to the next lesson to find out
+
+
+**Additional Resources:**
+
+**Advanced EHR Data Representation: Graph Convolutional Transformer**
+We have learned about the complexity of information found within code sets 
+such as diagnosis, procedure, and medication codes. However, there is even more benefit in using these code sets together to understand connections between codes within a given encounter and trend across the longitudinal view of a patient’s medical history. You can also compare at a population level to extract useful trends, insights, and even prognostic capabilities.
+
+One paper that I recommend reviewing is the paper that came out of work from Google
+Health and DeepMind where they create a Graph Convolutional Transformer or GCT.
+
+GCT leverages the now commonly used Transformer Architecture with graph embedding 
+representations of code sets such as diagnosis, procedure, lab, and medication codes.
+
+The advantage of this approach over the standard bag of features approaches is that it 
+retains connections between features such as
+ - diagnosis code for a symptom
+ - the connection to a medication code prescribed
+ - a procedure code that was performed.
+
+It does this by utilizing a conditional probability matrix that 
+you can see in the illustration in figure 3 from 
+the GCT paper. 
+This is definitely worth your time to read through even though it was a bit outside 
+of the scope of this course and should help clarify how these codes are used together 
+in real-world healthcare data.
+
+### Resources
+1. [Github Code](https://github.com/Google-Health/records-research/tree/master/graph-convolutional-transformer)
+2. [Graph Convolutional Transformer](https://arxiv.org/pdf/1906.04716.pdf)
+3. [Transformer Architecture](https://arxiv.org/abs/1706.03762)
+4. [EHR](https://eicu-crd.mit.edu/about/eicu/)
