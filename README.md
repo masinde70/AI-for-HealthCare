@@ -1007,3 +1007,16 @@ As mentioned earlier, there is a tremendous challenge of taking the 77K+ ICD10 P
 As an example using single-level codes:
 - Operations on the cardiovascular system are codes 43-63
 - Heart valve procedures is code 43.
+
+**EHR Code Sets Recap Key Points**
+
+In this lesson, you learned about key components of EHR data, Code Sets.
+As a quick reminder, EHR Code sets allow for the comparison of data across various EHR systems. 
+You first learned about diagnosis codes. 
+In particular, ICD10-CM. You gained knowledge of what this code set is, why it's important, how to read them.
+You also applied that knowledge by grouping data using EHR codes as well as build an embedding with visualizations. 
+Hopefully, ICD10- CM codes will be easy to work with from now on.
+Then you reduced cardinality of a dataset using procedure codes after learning more about ICD10-PCS, CPT and HCPCS. 
+You should be able to break down medication codes too! You should also be able to apply your knowledge to deal with the challenges of working with medication code sets.
+Finally, you put all of this code knowledge to work by grouping and categorizing these code sets with CCS.
+I know that there was a lot of information in this lesson, but now it's time to move on to learning some magic to transform EHR Data! Into what? You'll have to head to the next lesson to find out
