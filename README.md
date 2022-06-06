@@ -940,3 +940,18 @@ CPT codes have the following structure:
 2. [CMS.gov Database Download for CPT Codes](https://www.cms.gov/medicare-coverage-database/search.aspx)
 3. [CMS.gov HCPCS Codes Information](https://www.cms.gov/Medicare/Coding/MedHCPCSGenInfo)
 4. [HCPCS Wikipedia](https://en.wikipedia.org/wiki/Healthcare_Common_Procedure_Coding_System)
+
+
+## Medication Code
+Medication Code Key Points
+**NDC:** National Drug Code
+
+In this section, we discussed the NDC Codes. These codes have been in place since 1972, and are maintained by the FDA.
+
+**NDC Code Structure**
+- 10- to 11-digit code
+   - multiple configurations
+- 3 Parts
+  - Labeler: Drug manufacturer
+  - Product code: the actual drug details
+  - Package code: form and size of medication
