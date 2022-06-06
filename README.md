@@ -978,3 +978,19 @@ A common term you will hear for medical code sets is a crosswalk.
 For NDC codes we can connect them to HCPCS codes and depending on the data source you are looking at there may be a mapping from these codes.
 For the previous example, there is a crosswalk between the Tecentriq NDC code and the HCPCS code J9022. Something to note is that the HCPCS code starts with a J and the “J” codes tend to be drugs that are injected but by definition, they are drugs that are not taken orally. You can see that the HCPCS code maps some info from the NDC code.
 ![](HealthAI/Images/l2-ehr-code-sets-10.jpeg)
+
+### Challenge with NDC Codes
+One of the major challenges with NDC codes is to normalize or group codes by common types of drugs.
+For example, let’s take acetaminophen. 
+You would think this would be relatively straightforward to group whenever someone has the NDC code for this drug. 
+However, as you can see from this table of only a sample of the results from NDC List that there many drug codes that could contain acetaminophen with other drugs too.
+This can make drugs very difficult to deal with.
+
+#### Additional Resources:
+1. [NDC list](https://ndclist.com/)
+2. [RXNorm Overview](https://www.nlm.nih.gov/research/umls/rxnorm/overview.html)
+
+### RXNorm
+To address the problem just mentioned, the NIH developed a normalized naming system called RXNorm, which does what its name implies and groups medication together. This is important because providers, pharmacies, payers all send EHR records with this data but might use different names and it becomes difficult to communicate between different systems.
+To illustrate this issue, take a look at a drug Naproxen and the just a few examples of different names of naproxen that is the same thing,
+While there is a crosswalk between NDC codes and RXNorm, there are still some issues. Depending on the system you are dealing with, it could use one or the other code set.
