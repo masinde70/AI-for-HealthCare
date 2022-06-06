@@ -958,3 +958,4 @@ In this section, we discussed the NDC Codes. These codes have been in place sinc
 ![](HealthAI/Images/l2-ehr-code-sets-7.jpeg)
 In the image above you, can see the first part of the NDC code for Tecentriq.
 The first part of the code **50242** is the **Labeler**, which maps to the manufacturer of the drug (which in this case is **Genentech**, Inc).
+![](HealthAI/Images/l2-ehr-code-sets-8.jpeg)
