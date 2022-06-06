@@ -955,3 +955,4 @@ In this section, we discussed the NDC Codes. These codes have been in place sinc
   - Labeler: Drug manufacturer
   - Product code: the actual drug details
   - Package code: form and size of medication
+![](HealthAI/Images/l2-ehr-code-sets-7.jpg)
