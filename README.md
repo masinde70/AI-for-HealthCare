@@ -955,12 +955,26 @@ In this section, we discussed the NDC Codes. These codes have been in place sinc
   - Labeler: Drug manufacturer
   - Product code: the actual drug details
   - Package code: form and size of medication
+
 ![](HealthAI/Images/l2-ehr-code-sets-7.jpeg)
 In the image above you, can see the first part of the NDC code for Tecentriq.
 The first part of the code **50242** is the **Labeler**, which maps to the manufacturer of the drug (which in this case is **Genentech**, Inc).
+
 ![](HealthAI/Images/l2-ehr-code-sets-8.jpeg)
+
 In the example above, we are looking at the middle section of the code **917**.
 **917** is the **Product Code.** In this case, it takes the unpronounceable, Non-Proprietary Name, **ATEZOLIZUMAB 1200mg/20ml**, and maps it to the Proprietary Name, **Tecentriq.** 
 It also indicates that the drug dosage form is **Injection, Solution** and the route of administration is Intravenous.
 It is important to note that, you'd have to use the Non-Proprietary Name for generic-wise grouping of all drugs.
 ![](HealthAI/Images/l2-ehr-code-sets-9.jpeg)
+Finally, the last two digits **01.**
+This is the **packaging code,** and in this instance indicates that the package is a 14ml single vial in 1 carton for single use.
+
+
+
+### Crosswalk
+**Crosswalk:** A connection between two different code sets or versions of drugs in the same code set.
+A common term you will hear for medical code sets is a crosswalk.
+For NDC codes we can connect them to HCPCS codes and depending on the data source you are looking at there may be a mapping from these codes.
+For the previous example, there is a crosswalk between the Tecentriq NDC code and the HCPCS code J9022. Something to note is that the HCPCS code starts with a J and the “J” codes tend to be drugs that are injected but by definition, they are drugs that are not taken orally. You can see that the HCPCS code maps some info from the NDC code.
+![](HealthAI/Images/l2-ehr-code-sets-10.jpeg)
