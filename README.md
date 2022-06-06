@@ -959,3 +959,8 @@ In this section, we discussed the NDC Codes. These codes have been in place sinc
 In the image above you, can see the first part of the NDC code for Tecentriq.
 The first part of the code **50242** is the **Labeler**, which maps to the manufacturer of the drug (which in this case is **Genentech**, Inc).
 ![](HealthAI/Images/l2-ehr-code-sets-8.jpeg)
+In the example above, we are looking at the middle section of the code **917**.
+**917** is the **Product Code.** In this case, it takes the unpronounceable, Non-Proprietary Name, **ATEZOLIZUMAB 1200mg/20ml**, and maps it to the Proprietary Name, **Tecentriq.** 
+It also indicates that the drug dosage form is **Injection, Solution** and the route of administration is Intravenous.
+It is important to note that, you'd have to use the Non-Proprietary Name for generic-wise grouping of all drugs.
+![](HealthAI/Images/l2-ehr-code-sets-9.jpeg)
