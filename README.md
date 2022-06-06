@@ -994,3 +994,16 @@ This can make drugs very difficult to deal with.
 To address the problem just mentioned, the NIH developed a normalized naming system called RXNorm, which does what its name implies and groups medication together. This is important because providers, pharmacies, payers all send EHR records with this data but might use different names and it becomes difficult to communicate between different systems.
 To illustrate this issue, take a look at a drug Naproxen and the just a few examples of different names of naproxen that is the same thing,
 While there is a crosswalk between NDC codes and RXNorm, there are still some issues. Depending on the system you are dealing with, it could use one or the other code set.
+
+#### Grouping/Categorizing Key Points
+**CCS**- Clinical Classifications Software
+As mentioned earlier, there is a tremendous challenge of taking the 77K+ ICD10 PCS codes and categorizing them into meaningful categories at scale. This is where a government-industry partnership called the Healthcare Cost and Utilization Project (HCUP) created a categorization system called clinical classifications software or CCS. It can be used to map diagnosis or procedure codes from ICD code sets. It has single or multi-level options for mapping these codes.
+
+#### Single Level Categories
+- Mutually exclusive categories
+- 285 categories for diagnoses
+- 231 categories for procedures
+
+As an example using single-level codes:
+- Operations on the cardiovascular system are codes 43-63
+- Heart valve procedures is code 43.
