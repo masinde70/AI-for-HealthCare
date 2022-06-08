@@ -1052,3 +1052,22 @@ in real-world healthcare data.
 2. [Graph Convolutional Transformer](https://arxiv.org/pdf/1906.04716.pdf)
 3. [Transformer Architecture](https://arxiv.org/abs/1706.03762)
 4. [EHR](https://eicu-crd.mit.edu/about/eicu/)
+
+
+# Applying AI to Wearable Device Data
+
+### Wearable Data
+[Hillsborough teen: Apple Watch saved my life](https://www.abcactionnews.com/news/region-hillsborough/hillsborough-teen-apple-watch-saved-my-life)
+
+**Why Wearables**
+
+They can monitor people continuously and 
+unobtrusively and discover intermittent abnormalities that point to serious medical conditions before they progress. And in this case, they alerted this woman of her condition before she developed symptoms that might have put her in the hospital.
+### Intro to digital signals
+
+### Intro to Sensors
+
+### Activity Classification
+
+### ECG Signal Processing
+
