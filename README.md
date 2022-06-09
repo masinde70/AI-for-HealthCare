@@ -1149,7 +1149,7 @@ This cycle repeats every heartbeat and results in a very regular and uniform loo
 - **Sinus node:** The natural pacemaker of the heart. Responsible for generating the impulse that causes the heart to beat.
 - **AV node:** Part of the cardiac conduction system that propagates the impulse from the atria to the ventricles after a delay.
 
-### Order Steps of cardiac Condition
+### Steps of cardiac Condition
 1. Impulse generation in the Sinus
 2. Atrial depolarization
 3. AV node impulse conduction
