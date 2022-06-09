@@ -1113,6 +1113,8 @@ The last property of a periodic signal is the phase shift, which is similar to a
 
 ![](HealthAI/Images/nd320-c4-l4-lesson-concepts.png)
 
+1. [Heart Physiology](https://www.youtube.com/watch?v=BIkZwowLeRc)
+
 The heart is made up of four chambers, two atria and two ventricles. The **atria** pump blood into the **ventricles** 
 and then the ventricles pump blood throughout the body. Each heart cell is polarized, meaning there is a different 
 electrical charge inside and outside of the cell. At rest, the inside of the cell is negatively charged compared to 
@@ -1135,5 +1137,22 @@ caused by the AV node delaying the electrical impulse to the ventricles. When th
 we see the large QRS complex. And finally, after some time, the ventricles repolarize, causing the T-wave. 
 The atria repolarize around the same time as the ventricles finish contracting so that activity is not visible in an 
 ECG because it is obscured by the S-wave.
-
 This cycle repeats every heartbeat and results in a very regular and uniform looking signal.
+
+**Glossary**
+
+- **Atria:** The upper chambers of the heart that pass blood to the ventricles.
+- **Ventricles:** The main chambers of the heart that pump blood throughout the body
+- **Depolarization:** The movement of charges across a cell membrane that causes the inside of the cell to become less negatively charged.
+- **Repolarization:** The movement of charges across the cell membrane that restore the negative resting charge inside the cell.
+- **Cardiac conduction system:** A group of specialized cardiac cells that send signals to the heart, causing it to contract. The main components that we discussed in this course were the sinoatrial (SA) node and the atrioventricular (AV) node. Other components include the bundle of His, left and right bundle branches, and the Purkinje fibers, which propagate the signal from the AV node throughout the ventricles.
+- **Sinus node:** The natural pacemaker of the heart. Responsible for generating the impulse that causes the heart to beat.
+- **AV node:** Part of the cardiac conduction system that propagates the impulse from the atria to the ventricles after a delay.
+
+### Order Steps of cardiac Condition
+1. Impulse generation in the Sinus
+2. Atrial depolarization
+3. AV node impulse conduction
+4. Ventricular depolarization begins
+5. Atrial repolarization
+6. Ventricular repolarization
