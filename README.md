@@ -1167,4 +1167,29 @@ The way we find these QRS complexes is by using an algorithm called the Pan-Tomp
 For most event detection tasks like this, we start with preprocessing steps that will boost the signal and suppress the noise. For Pan-Tompkins, we start with the bandpass filter that selects for frequencies in the QRS complex and suppresses frequencies outside of that band. This is followed by a one-sample difference, which is analogous to a derivative operation. This will preserve the steep slopes of the QRS complex and attenuate shallower ones elsewhere in the waveform. Next, we do an element-wise square which non-linearly amplifies the larger portions of our signal and makes everything positive. Finally, we do a moving sum over a fixed window length. This takes advantage of the fact the QRS complex has a fixed width of 150ms. If we tune the moving sum window to 150ms, we can fully take advantage of all the energy in the QRS complex, while attenuating other spikes that are shorter or longer than 150ms.
 
 The detection steps are fairly simple. We simply find the peaks in our pre-processed waveform and then threshold them to select for the QRS complexes.
+
 [Pan-Tompkins Algorithm](https://www.youtube.com/watch?v=8fb5IJjV-Yo&t=1s&ab_channel=Udacity)
+
+## Summary
+After improving the detection rules, we substantially improve the precision and recall of our detector substantially. Watch the video to see how we implement the three strategies for more robust detection:
+
+Refractory Period Blanking
+Adaptive Thresholding
+T-Wave Rejection
+The Pan-Tompkins algorithm is a great example of an event detection algorithm. This kind of algorithm is especially common in biomedical time series processing. By diving deep into this algorithm, you’ve seen how knowledge of the underlying physiology, the signal characteristics, and the noise characteristics can help in the algorithm design. As you learn more about the tools and operations that can boost the signal and suppress noise in a specific domain, you will have better intuition for designing algorithms to solve these types of problems.
+
+## Atrial Fibrillation
+ Atrial Fibrillation is a type of arrhythmia, which is an irregular heart rhythm.
+
+Recall, in a normal heart rhythm, the sinus node generates the impulse that causes the atria to contract.
+This impulse is propagated to the AV node and then throughout ventricles, 
+causing the ventricles to contract. This process results in a very regular rhythm
+called **sinus rhythm.**
+
+In **Atrial Fibrillation**, instead of the SA node being the sole location that begins the depolarization of the atria, there are multiple locations around the atria that will spontaneously and haphazardly generate an impulse. Each of these impulses causes a partial contraction of the atria, but no single impulse depolarizes the entire atria, so there is no coherent contraction of the atria. Occasionally, one of these impulses will reach the AV node, which will then cause a ventricular contraction. But this occurs at random times, so ventricular contractions occur irregularly.
+
+When can we examine features of the ECG signal to detect atrial fibrillation? First, there is no P-wave because there is no coherent depolarization of the atria to cause an electrical disturbance large enough to create the P-wave. Instead, we see a fibrillating wave in the T-Q segment. Second, the QRS complexes are very irregular.
+
+We mentioned earlier that atrial fibrillation is associated with an increased risk of stroke. Because the atria are not contracting completely, stagnant pools of blood will form in the atria. These pools can form blood clots that are then circulated through the bloodstream. As these clots pass through progressively smaller and smaller arteries, they may eventually obstruct blood flow to the brain and cause a stroke.
+
+Now we have seen how atrial fibrillation occurs physiologically and why it’s a potentially dangerous condition. Next, we will build an algorithm that automatically detects atrial fibrillation and other arrhythmias from the ECG signal.
