@@ -1083,9 +1083,57 @@ The last property of a periodic signal is the phase shift, which is similar to a
 
 **Phase Shift:** The shift between two similar periodic signals expressed in fractions of a period (multiplied by 2𝛑 radians or 360°).
 
+
+
+**Glossary**
+
+- **Transducer:** Part of a sensor that converts a physical phenomenon into an electrical one (e.g., voltage)
+- **Analog-to-Digital Convert (ADC):** A device (usually embedded in the sensor) that converts an analog voltage into an array of bits.
+- **Bit depth:** The number of bits an ADC uses to create a sample. A 16-bit ADC produces a 16-bit number for each sample.
+- **Noise floor:** The total amount of noise in the sensor, including electrical interference from the environment and other parts of the device, thermal noise, and quantization noise.
+- **Dynamic range:** The physical range of the sensor. Values outside of this range will show up as clipping in the digital signal.
+- **Sampling rate:** The frequency at which a sensor measures a signal.
+- **Hz:** The units of the sampling rate. 1Hz means 1 sample per second.
+- **Nyquist frequency:** Half of the sampling frequency. Signal components above this frequency will get aliased in the sampled signal.
+- **Frequency component:** The Fourier transform explains a signal as a sum of sinusoids. Each of these sinusoids is a frequency component of the signal.
+- **Aliasing:** The effect that causes frequency components greater than the Nyquist frequency to become indistinguishable from frequencies below the Nyquist frequency.
+- **Bandwidth:** A range of frequencies within a band.
+- **Interpolation:** A method for estimating new data points within a range of discrete known data points.
+- **Resampling:** The process of changing the sampling rate of a discrete signal to obtain a new discrete representation of the underlying continuous signal.
+- **Frequency domain:** A representation of a signal over frequency instead of time. Instead of representing the signal as a series of numbers in time, the signal is represented by the frequency components that make it up.
+- **Time-domain:** The typical representation we are used to for signals where the signal is represented by values in time.
+- **Bandpass filter:** A function that preserves frequency components of a signal within a band and suppresses the frequency components outside that band.
+- **Passband:** The band of a bandpass filter where frequency components will be preserved.
+- **Stationarity:** A property of a signal where the statistics of a process generating a signal do not change in time. Generally, if the frequency components in a signal change in time, this signal is not stationary
 ### Intro to Sensors
 
 ### Activity Classification
 
 ### ECG Signal Processing
 
+![](HealthAI/Images/nd320-c4-l4-lesson-concepts.png)
+
+The heart is made up of four chambers, two atria and two ventricles. The **atria** pump blood into the **ventricles** 
+and then the ventricles pump blood throughout the body. Each heart cell is polarized, meaning there is a different 
+electrical charge inside and outside of the cell. At rest, the inside of the cell is negatively charged compared to 
+the outside. When the cell **depolarizes**, positive charges outside of the cell flow inside and makes the interior of 
+the cell positively charged relative to the outside. This depolarization causes the cell to contract. 
+The movement of charges across a heart cell’s membrane is the source of the electrical activity that gets
+measured by an ECG.
+
+The conduction of electrical impulses through the heart follows a regular pattern orchestrated by the **cardiac
+conduction system**. Each heartbeat starts with an impulse in the sinus (SA) node. The **sinus** node is the natural 
+pacemaker of the heart and is responsible for setting the heart’s natural rhythm. The impulse then propagates
+throughout the atria and causes the atria to contract. Then, the impulse enters the **atrioventricular (AV) node**,
+which delays the propagation of the signal to the ventricles. This gives the atria time to pump blood into the
+ventricles. After a brief pause, the signal passes through the AV node and into the ventricles, causing the ventricles 
+to contract. This is the largest electrical disturbance in the cardiac cycle. After the ventricles contract,
+they **repolarize**, meaning the ions move back across the cell wall to their initial resting state.
+Each part of this sequence is responsible for creating a distinct marker-- or wave --in the ECG signal.
+The P-wave corresponds to the depolarization of the atria. The pause between the P-wave and the Q-wave is
+caused by the AV node delaying the electrical impulse to the ventricles. When the ventricles contract,
+we see the large QRS complex. And finally, after some time, the ventricles repolarize, causing the T-wave. 
+The atria repolarize around the same time as the ventricles finish contracting so that activity is not visible in an 
+ECG because it is obscured by the S-wave.
+
+This cycle repeats every heartbeat and results in a very regular and uniform looking signal.
