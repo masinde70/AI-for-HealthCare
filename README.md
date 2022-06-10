@@ -1110,6 +1110,7 @@ The last property of a periodic signal is the phase shift, which is similar to a
 ### Activity Classification
 
 ### ECG Signal Processing
+1. [Database for data](https://physionet.org/about/database/)
 
 ![](HealthAI/Images/nd320-c4-l4-lesson-concepts.png)
 
@@ -1208,3 +1209,47 @@ eventually obstruct blood flow to the brain and cause a stroke.
 Now we have seen how atrial fibrillation occurs physiologically and why it’s 
 a potentially dangerous condition. Next, we will build an algorithm that 
 automatically detects atrial fibrillation and other arrhythmias from the ECG signal.
+[Atria Fibrillation](https://www.youtube.com/watch?v=VGi988eAI0I&t=144s&ab_channel=Udacity)
+
+**QN**
+
+What phenomenon is responsible for atrial fibrillation?
+
+**ANS**
+Spontaneous and haphazard impulses arising from multiple locations around the atria
+
+Correct! These impulses do not fully depolarize the atria and will occasionally propagate to the AV node, 
+causing irregular ventricular contractions.
+
+## Glossary
+- **Arrhythmia:** An irregular heart rhythm.
+- **Sinus Rhythm:** The normal, regular heart rhythm, paced by the sinus node.
+- **Atrial fibrillation:** An irregular rhythm caused by multiple, haphazard depolarizations across the atria.
+
+
+### Arrhythmia Detection Dataset
+[AF Classification from a Short Single Lead ECG Recording: The PhysioNet/Computing in Cardiology Challenge 2017](https://physionet.org/content/challenge-2017/1.0.0/)
+
+##  Further Resources
+1. [Rapid Interpretation of EKG's, Sixth Edition 6th Revised ed. Edition](https://www.amazon.com/Rapid-Interpretation-EKGs-Sixth-Dubin/dp/0912912065/)
+2. [The original Pan-Tompkins algorithm paper](https://ieeexplore.ieee.org/document/4122029)
+3. [Rhythm and Quality Classification from Short ECGs Recorded
+Using a Mobile Device](https://www.cinc.org/archives/2017/pdf/165-056.pdf)
+4. [Detection of Atrial Fibrillation Episodes from Short Single Lead Recordings by
+Means of Ensemble Learning](https://www.cinc.org/archives/2017/pdf/169-313.pdf)
+5. [A Detector for a Chronic Implantable Atrial Tachyarrhythmia Monitor](https://ieeexplore.ieee.org/document/4360105)
+
+### Glossary
+Glossary
+- **Atria:** The upper chambers of the heart that pass blood to the ventricles.
+- **Ventricles:** The main chambers of the heart that pump blood throughout the body
+- **Depolarization:** The movement of charges across a cell membrane that causes the inside of the cell to become less negatively charged.
+- **Repolarization:** The movement of charges across the cell membrane that restore the negative resting charge inside the cell.
+- **Cardiac conduction system:** A group of specialized cardiac cells that send signals to the heart, causing it to contract. The main components that we discussed in this course were the sinoatrial (SA) node and the atrioventricular (AV) node. Other components include the bundle of His, left and right bundle branches, and the Purkinje fibers, which propagate the signal from the AV node throughout the ventricles.
+- **Sinus node:** The natural pacemaker of the heart. Responsible for generating the impulse that causes the heart to beat.
+- **AV node:** Part of the cardiac conduction system that propagates the impulse from the atria to the ventricles after a delay.
+- **Refractory Period:** The period after depolarization where a cell cannot depolarize again.
+- **Sinus Rhythm:** The normal, regular heart rhythm, paced by the sinus node.
+- **Arrhythmia:** An irregular heart rhythm.
+- **Atrial fibrillation:** An irregular rhythm caused by multiple, haphazard depolarizations across the atria.
+- **inter-beat-interval:** The time between successive heartbeats. Also called the RR interval.
