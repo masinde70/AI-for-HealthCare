@@ -1118,12 +1118,31 @@ The gyroscope measures angular velocity
 The magnetometer measures absolute orientation.
 While an accelerometer might tell you that the device is moving to the left really fast, it won’t tell you which way left actually is. The magnetometer will tell you that moving to the left means going East. Each of these sensors has 3 channels of measurements, each in a perpendicular direction in 3D space and would be labeled x, y, and z. This would be like measuring the acceleration up and down, left and right, and forward and backward. Device manufacturers can orient their accelerometers however they want, so we can’t assume that the z-direction is the vertical direction.
 
+## Resources
+1. [This paper describes using the orientation of accelerometers on the body to determine posture.](https://www.semanticscholar.org/paper/Activity%2FPosture-Recognition-using-Wearable-Sensors-Gjoreski-Gams/b8ac6f5f1a3362f83aef7c75b0b75ab09e17a3c1?p2df)
+2. [A review of methods for segmenting the gait cycle.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732099/)
+3. [Gait cycle segmentation using an ankle based accelerometer.](https://eudl.eu/pdf/10.4108/icst.pervasivehealth.2011.246061)
+4. [An article describing how changes in the gait cycle can be learned behavior. In this case, from prior KGB training.](https://www.bmj.com/content/351/bmj.h6141)
+
 **New Vocabulary**
 - **Inertial Measurement Unit (IMU):** A collection of sensors that measure motion.
-- **Accelerometer:* A sensor that measures linear acceleration.
-- Gyroscope: A sensor that measures angular velocity.
-- Magnetometer: A sensor that measures magnetic forces.
-- g-force: The amount of acceleration on a body measured in units of acceleration due to gravity on earth (or roughly 9.8m/s^2)
+- **Accelerometer:** A sensor that measures linear acceleration.
+- **Gyroscope:** A sensor that measures angular velocity.
+- **Magnetometer:** A sensor that measures magnetic forces.
+- **g-force:** The amount of acceleration on a body measured in units of acceleration due to gravity on earth (or roughly 9.8m/s^2)
+
+##### PPG Sensor
+The photoplethysmogram (PPG) optically measures blood flow at the wrist. 
+The LEDs in a PPG sensor shine a typically green light into your skin and your red blood cells absorb that green light. The reflected light is then measured by the photodetector. When your heart beats and blood perfuses through the wrist, there are more red blood cells that absorb the green light and the photodetector sees a smaller signal. As the heart fills back up with blood and blood leaves your wrist, the more green light is reflected back and the photodetector reading goes up. This oscillating waveform can be used 
+to detect pulse rate. See the illustration below.
+![](HealthAI/Images/nd320-c4-l2-ppg-sensor-diagram.png)
+
+**New Vocabulary***
+
+- **Photoplethysmogram (PPG):** the optical sensor used to measure pulse rate on a wearable device.
+- **Photodetector:** A sensor that measures light.
+- **Diastole:** The phase of the cardiac cycle where the heart relaxes and fills with blood.
+- **Systole:** The phase of the cardiac cycle where the ventricles contract and pump blood through the arteries.
 
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
