@@ -1105,10 +1105,31 @@ The last property of a periodic signal is the phase shift, which is similar to a
 - **Bandpass filter:** A function that preserves frequency components of a signal within a band and suppresses the frequency components outside that band.
 - **Passband:** The band of a bandpass filter where frequency components will be preserved.
 - **Stationarity:** A property of a signal where the statistics of a process generating a signal do not change in time. Generally, if the frequency components in a signal change in time, this signal is not stationary
+
 ### Intro to Sensors
+Sensors are how we measure physical quantities in the world around us. 
+The name of the game for building any kind of sensor is to convert a physical 
+phenomenon into an electrical one - be it a current or voltage - which can then be digitized and stored on a computer. The component that does this is called the transducer.
+![](HealthAI/Images/nd320-c4-l2-sensor-and-algorithms.png)
+The inertial measurement unit (IMU) is an umbrella term for three specific sensors that describe motion, namely the accelerometer, gyroscope, and magnetometer.
+
+The accelerometer measures linear acceleration.
+The gyroscope measures angular velocity
+The magnetometer measures absolute orientation.
+While an accelerometer might tell you that the device is moving to the left really fast, it won’t tell you which way left actually is. The magnetometer will tell you that moving to the left means going East. Each of these sensors has 3 channels of measurements, each in a perpendicular direction in 3D space and would be labeled x, y, and z. This would be like measuring the acceleration up and down, left and right, and forward and backward. Device manufacturers can orient their accelerometers however they want, so we can’t assume that the z-direction is the vertical direction.
+
+**New Vocabulary**
+- **Inertial Measurement Unit (IMU):** A collection of sensors that measure motion.
+- **Accelerometer:* A sensor that measures linear acceleration.
+- Gyroscope: A sensor that measures angular velocity.
+- Magnetometer: A sensor that measures magnetic forces.
+- g-force: The amount of acceleration on a body measured in units of acceleration due to gravity on earth (or roughly 9.8m/s^2)
 
 ### Activity Classification
+n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
 
+To build this activity classifier, you will learn how to featurize a high-rate time-series signal. How do you take a few seconds of a 200Hz signal -- so that’s 1000s of data points -- and reduce it to a handful of features that traditional machine learning models know how to deal with. We’ll then use a random forest model to train our activity classifier and use leave-one-subject out cross-validation to evaluate its performance. We’ll then talk about our model’s hyperparameters and do hyperparameter optimization. To be successful in any modeling task, however, we need to dive into our data and become familiar with its intricacies, so we’re going to begin with some data exploration.
+![](HealthAI/Images/nd320-c4-l3-algorithm-development-progress.png)
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
 
