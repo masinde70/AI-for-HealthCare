@@ -1162,7 +1162,7 @@ the signal that will then be the input to your algorithms. Being able to provide
 various hardware prototypes will provide endless returns down the line when you start building algorithms based on that
 hardware.
 [This paper shows the signal quality](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651860/)
-
+![](HealthAI/Images/l2-ppg-snr-1.png)
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
 
