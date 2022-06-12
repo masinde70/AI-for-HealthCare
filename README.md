@@ -1204,7 +1204,7 @@ for their clinical utility and make inroads into clinical practice.
 [ECG](https://en.wikipedia.org/wiki/Electrocardiography)
 
 
-New Vocabulary
+**New Vocabulary**
 Electrocardiogram (ECG): A sensor that measures the electrical activity of the heart.
 Electrode: Part of an ECG circuit. Conductive pads that make contact with the skin.
 Lead: An electrical potential difference measured across two electrodes of an ECG circuit.
