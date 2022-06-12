@@ -1173,6 +1173,41 @@ unprocessed form to diagnose heart problems like a previous heart attack or an i
 ![](HealthAI/Images/nd320-c4-l2-clinical-ecg.jpg)
 Each pair of electrodes measures a slightly different voltage.
 The standard 12-lead ECG contains 12 different voltages across different axes of the body.
+![](HealthAI/Images/nd320-c4-l2-12-lead-ecg.png)
+The ECG has been “somewhat” wearable for a while. **Holter monitors** are ECG machines that are connected to a person’s 
+chest in much the same way a tabletop machine is, but the recording device is portable and attached to the wearer’s hip.
+Holter monitors are worn during stress tests after a patient has been diagnosed or is suspected of having a heart 
+condition or for short-term monitoring. 
+They’re typically not worn for more than a few days.
+
+Beyond that, there are chest patches that only measure 1-lead of the 12 lead ECG. These chest patches can last from
+a few days to a couple of weeks. In 2011, Alivecor started making a handheld device that paired with an iPhone to 
+take an ECG. Apple Watch and Verily’s Study Watch both have ECG sensors embedded into the hardware. On a wristwatch,
+the two electrodes are moved to the wrist and fingers on opposing hands. Because of this, the ECG cannot be monitored 
+continuously and passively like the chest patch or Holter monitor or other sensors on a wearable. However, 
+a wrist-watch can be worn for years, while a chest patch only lasts for a few weeks.
+
+A lead is a voltage channel. An electrode is a conductive contact on the skin. A lead is measured by taking the 
+potential difference across a pair of electrodes.
+
+**What trade-off is being made between a 12-lead ECG, a Holter monitor, the Zio patch, and an Apple Watch ECG?**
+
+Things to think about
+The main trade-off being made between these devices is one of the density of ECG data vs. longitudinally of monitoring. 
+A 12-lead ECG contains 12 channels of ECG signals, looking at multiple axes across the chest. However, it is only 
+recorded for a few seconds to a minute while a patient is in a clinic. Holter monitors can measure an ECG for hours 
+to a few days, but they typically only measure 3-5 leads of an ECG. The Zio patch measures 1 ECG leads for a couple of
+weeks, and a wrist-watch can measure 1 ECG lead intermittently over the years.
+
+Each of these points on the trade-off curve has different clinical utility. Wearables continue to try to make a case 
+for their clinical utility and make inroads into clinical practice.
+[ECG](https://en.wikipedia.org/wiki/Electrocardiography)
+
+
+
+
+
+
 
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable.
@@ -1183,6 +1218,10 @@ subjects are spending more time walking around or if they are mostly idle.
 
 To build this activity classifier, you will learn how to featurize a high-rate time-series signal. How do you take a few seconds of a 200Hz signal -- so that’s 1000s of data points -- and reduce it to a handful of features that traditional machine learning models know how to deal with. We’ll then use a random forest model to train our activity classifier and use leave-one-subject out cross-validation to evaluate its performance. We’ll then talk about our model’s hyperparameters and do hyperparameter optimization. To be successful in any modeling task, however, we need to dive into our data and become familiar with its intricacies, so we’re going to begin with some data exploration.
 ![](HealthAI/Images/nd320-c4-l3-algorithm-development-progress.png)
+
+
+
+
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
 
