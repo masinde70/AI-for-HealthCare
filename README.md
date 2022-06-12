@@ -1167,11 +1167,19 @@ hardware.
 ![](HealthAI/Images/l2-ppg-snr-1.png)
 
 #### ECG(EKG) sensor
-Electrocardiograms (ECG or EKG) measure the voltage across the chest, which is primarily due to the heart rhythm. ECGs are different from the other raw signals produced by a wearable in that cardiologists can use them in their raw, unprocessed form to diagnose heart problems like a previous heart attack or an irregular heart rhythm.
+**Electrocardiograms (ECG or EKG)** measure the voltage across the chest, which is primarily due to the heart rhythm.
+ECGs are different from the other raw signals produced by a wearable in that cardiologists can use them in their raw,
+unprocessed form to diagnose heart problems like a previous heart attack or an irregular heart rhythm.
 ![](HealthAI/Images/nd320-c4-l2-clinical-ecg.jpg)
+Each pair of electrodes measures a slightly different voltage.
+The standard 12-lead ECG contains 12 different voltages across different axes of the body.
 
 ### Activity Classification
-n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
+n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable.
+Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the
+day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to
+know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if
+subjects are spending more time walking around or if they are mostly idle.
 
 To build this activity classifier, you will learn how to featurize a high-rate time-series signal. How do you take a few seconds of a 200Hz signal -- so that’s 1000s of data points -- and reduce it to a handful of features that traditional machine learning models know how to deal with. We’ll then use a random forest model to train our activity classifier and use leave-one-subject out cross-validation to evaluate its performance. We’ll then talk about our model’s hyperparameters and do hyperparameter optimization. To be successful in any modeling task, however, we need to dive into our data and become familiar with its intricacies, so we’re going to begin with some data exploration.
 ![](HealthAI/Images/nd320-c4-l3-algorithm-development-progress.png)
