@@ -1149,7 +1149,9 @@ wrist. Conversely, the trough occurs right after the ventricles have contracted 
 wrist.
 
 **New Vocabulary***
-[PPG](https://en.wikipedia.org/wiki/Photoplethysmogram)
+1. [PPG](https://en.wikipedia.org/wiki/Photoplethysmogram)
+2. [A dissertation on PPG processing techniques that includes an introduction that has great 
+background information on the PPG signal in general.](https://www.semanticscholar.org/paper/Photoplethysmography-Based-Biomedical-Signal-Sch%C3%A4ck/c1d1318d4fa8c8c02b1eaae2ca50c16532b53e15)
 - **Photoplethysmogram (PPG):** the optical sensor used to measure pulse rate on a wearable device.
 - **Photodetector:** A sensor that measures light.
 - **Diastole:** The phase of the cardiac cycle where the heart relaxes and fills with blood.
@@ -1163,6 +1165,11 @@ various hardware prototypes will provide endless returns down the line when you 
 hardware.
 [This paper shows the signal quality](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651860/)
 ![](HealthAI/Images/l2-ppg-snr-1.png)
+
+#### ECG(EKG) sensor
+Electrocardiograms (ECG or EKG) measure the voltage across the chest, which is primarily due to the heart rhythm. ECGs are different from the other raw signals produced by a wearable in that cardiologists can use them in their raw, unprocessed form to diagnose heart problems like a previous heart attack or an irregular heart rhythm.
+
+
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
 
