@@ -1149,7 +1149,7 @@ wrist. Conversely, the trough occurs right after the ventricles have contracted 
 wrist.
 
 **New Vocabulary***
-
+[PPG](https://en.wikipedia.org/wiki/Photoplethysmogram)
 - **Photoplethysmogram (PPG):** the optical sensor used to measure pulse rate on a wearable device.
 - **Photodetector:** A sensor that measures light.
 - **Diastole:** The phase of the cardiac cycle where the heart relaxes and fills with blood.
