@@ -1223,9 +1223,10 @@ The detection steps are fairly simple. We simply find the peaks in our pre-proce
 ## Summary
 After improving the detection rules, we substantially improve the precision and recall of our detector substantially. Watch the video to see how we implement the three strategies for more robust detection:
 
-Refractory Period Blanking
-Adaptive Thresholding
-T-Wave Rejection
+- Refractory Period Blanking
+- Adaptive Thresholding
+- T-Wave Rejection
+
 The Pan-Tompkins algorithm is a great example of an event detection algorithm. This kind of algorithm is especially 
 common in biomedical time series processing. By diving deep into this algorithm, you’ve seen how knowledge of the 
 underlying physiology, the signal characteristics, and the noise characteristics can help in the algorithm design. 
