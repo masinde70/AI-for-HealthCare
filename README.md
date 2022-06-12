@@ -1133,9 +1133,18 @@ While an accelerometer might tell you that the device is moving to the left real
 
 ##### PPG Sensor
 The photoplethysmogram (PPG) optically measures blood flow at the wrist. 
-The LEDs in a PPG sensor shine a typically green light into your skin and your red blood cells absorb that green light. The reflected light is then measured by the photodetector. When your heart beats and blood perfuses through the wrist, there are more red blood cells that absorb the green light and the photodetector sees a smaller signal. As the heart fills back up with blood and blood leaves your wrist, the more green light is reflected back and the photodetector reading goes up. This oscillating waveform can be used 
+The LEDs in a PPG sensor shine a typically green light into your skin and your red blood cells absorb that green light. 
+The reflected light is then measured by the photodetector. When your heart beats and blood perfuses through the wrist, there are more red blood cells that absorb the green light and the photodetector sees a smaller signal. As the heart fills back up with blood and blood leaves your wrist, the more green light is reflected back and the photodetector reading goes up. This oscillating waveform can be used 
 to detect pulse rate. See the illustration below.
 ![](HealthAI/Images/nd320-c4-l2-ppg-sensor-diagram.png)
+The trough corresponds to a peak in perfusion and occurs when the ventricles of 
+the heart contract, called **systole**. 
+The peak in the waveform occurs when there is the least amount of blood in the wrist or when the heart relaxes
+and fills with blood, called **diastole**.
+
+Peak = Diastole
+Trough = Systole
+The peak in the waveform corresponds to the least amount of light being absorbed and the fewest red blood cells in the wrist. Conversely, the trough occurs right after the ventricles have contracted and there is maximum perfusion in the wrist.
 
 **New Vocabulary***
 
