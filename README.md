@@ -1144,7 +1144,9 @@ and fills with blood, called **diastole**.
 
 Peak = Diastole
 Trough = Systole
-The peak in the waveform corresponds to the least amount of light being absorbed and the fewest red blood cells in the wrist. Conversely, the trough occurs right after the ventricles have contracted and there is maximum perfusion in the wrist.
+The peak in the waveform corresponds to the least amount of light being absorbed and the fewest red blood cells in the 
+wrist. Conversely, the trough occurs right after the ventricles have contracted and there is maximum perfusion in the
+wrist.
 
 **New Vocabulary***
 
@@ -1152,6 +1154,14 @@ The peak in the waveform corresponds to the least amount of light being absorbed
 - **Photodetector:** A sensor that measures light.
 - **Diastole:** The phase of the cardiac cycle where the heart relaxes and fills with blood.
 - **Systole:** The phase of the cardiac cycle where the ventricles contract and pump blood through the arteries.
+
+### Signal Quality Evaluation
+The single most important factor that can make or break any algorithm you build is the underlying quality of signal.
+As an algorithms engineer you may have the rare opportunity to influence the design of the hardware that will acquire
+the signal that will then be the input to your algorithms. Being able to provide actionable quantitative feedback for 
+various hardware prototypes will provide endless returns down the line when you start building algorithms based on that
+hardware.
+[This paper shows the signal quality](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651860/)
 
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
