@@ -1168,7 +1168,7 @@ hardware.
 
 #### ECG(EKG) sensor
 Electrocardiograms (ECG or EKG) measure the voltage across the chest, which is primarily due to the heart rhythm. ECGs are different from the other raw signals produced by a wearable in that cardiologists can use them in their raw, unprocessed form to diagnose heart problems like a previous heart attack or an irregular heart rhythm.
-
+![](HealthAI/Images/nd320-c4-l2-clinical-ecg.jpg)
 
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable. Activity classifiers can be useful directly in that people like to keep track of the activities they are doing over the day. But they can also be used in more clinical contexts. For example, if a company is doing a drug trial and wants to know if their drug makes study subjects more or less active, they can look at the activity classifier output and see if subjects are spending more time walking around or if they are mostly idle.
