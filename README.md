@@ -1258,8 +1258,11 @@ Classification accuracy: The percent of correct classifications made by a model.
 3. [ Decision Trees, Part 2 - Feature Selection and Missing Data](https://www.youtube.com/watch?v=wpNl-JwwplA&ab_channel=StatQuestwithJoshStarmer)
 4. [Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&ab_channel=StatQuestwithJoshStarmer)
 5. [Random Forests Part 2: Missing data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&ab_channel=StatQuestwithJoshStarmer)
+6. [Multi-Class Metrics Made Simple, Part I: Precision and Recall](https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2)
+7. [Classification metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics)
+8. [Activity notebook](https://github.com/udacity/nd320-c4-wearable-data-starter/tree/master/activity-classifier/walkthroughs/activity-classifier/)
+9. 
 
-6. []
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
 
