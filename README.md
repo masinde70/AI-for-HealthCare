@@ -1255,8 +1255,11 @@ Classification accuracy: The percent of correct classifications made by a model.
 ## Resources
 1. [ Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
 2. [Decision Tree](https://www.youtube.com/watch?v=7VeUPuFGJHk&ab_channel=StatQuestwithJoshStarmer)
-3. []
-4. []
+3. [ Decision Trees, Part 2 - Feature Selection and Missing Data](https://www.youtube.com/watch?v=wpNl-JwwplA&ab_channel=StatQuestwithJoshStarmer)
+4. [Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&ab_channel=StatQuestwithJoshStarmer)
+5. [Random Forests Part 2: Missing data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&ab_channel=StatQuestwithJoshStarmer)
+
+6. []
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
 
