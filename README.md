@@ -1237,6 +1237,26 @@ By selecting features from the literature, we can be confident that we are not u
 
 Check out the notebooks for this lesson and activity_classifier_utils.py to see how we implement the features and compute them for our dataset
 
+## Activity Classification
+1. [Activity Classifier](https://www.youtube.com/watch?v=fZXNoeq1ezg&t=3s&ab_channel=Udacity)
+2. [Leave-One-Subject-Out Cross Validation](https://www.youtube.com/watch?v=xcE_k8K5wPY&t=53s)
+
+### Summary
+We've explored the data, examined the literature, chosen our features, and pre-processed all the data. Now it's time to finally build the classifier!
+
+In this lesson, we finally train our features to build a random forest model. We talk about model performance and use cross-validation to estimate our accuracy. We end up with a model with an overall classification accuracy of 73%, which is the percent of correct classifications made by the model. But don’t fret, we’ll do better in the next video!
+
+
+**Glossary**
+
+Cross-validation: A technique for estimating model performance where multiple models are trained and tested each on a separate partition of the entire dataset.
+Classification accuracy: The percent of correct classifications made by a model.
+
+## Resources
+1. [ Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+2. [Decision Tree](https://www.youtube.com/watch?v=7VeUPuFGJHk&ab_channel=StatQuestwithJoshStarmer)
+3. []
+4. []
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
 
