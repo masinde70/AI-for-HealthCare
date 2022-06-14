@@ -1226,7 +1226,13 @@ To build this activity classifier, you will learn how to featurize a high-rate t
 
 # Resources
 1. [ML signal](https://ataspinar.com/2018/04/04/machine-learning-with-signal-processing-techniques/)
-2. 
+
+## Feature extraction
+Sampling a sensor hundreds of times per second means that raw sensor data has huge dimensionality. There are 7680 points of accelerometer data at 256 Hz over 10 seconds. Trying to model data points of this size will not be successful. We need to do dimensionality reduction.
+
+By selecting features from the literature, we can be confident that we are not using features that overfit to our dataset and that the activity classifier we build will generalize to other studies and devices.
+
+Check out the notebooks for this lesson and activity_classifier_utils.py to see how we implement the features and compute them for our dataset
 
 
 
