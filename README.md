@@ -1224,6 +1224,9 @@ subjects are spending more time walking around or if they are mostly idle.
 To build this activity classifier, you will learn how to featurize a high-rate time-series signal. How do you take a few seconds of a 200Hz signal -- so that’s 1000s of data points -- and reduce it to a handful of features that traditional machine learning models know how to deal with. We’ll then use a random forest model to train our activity classifier and use leave-one-subject out cross-validation to evaluate its performance. We’ll then talk about our model’s hyperparameters and do hyperparameter optimization. To be successful in any modeling task, however, we need to dive into our data and become familiar with its intricacies, so we’re going to begin with some data exploration.
 ![](HealthAI/Images/nd320-c4-l3-algorithm-development-progress.png)
 
+# Resources
+1. [ML signal](https://ataspinar.com/2018/04/04/machine-learning-with-signal-processing-techniques/)
+2. 
 
 
 
