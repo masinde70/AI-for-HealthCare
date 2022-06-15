@@ -4,7 +4,9 @@ Note: when choosing a medical imaging problem to be solved by machine learning, 
 ### 50 Surprising Statistics Every Healthcare Stakeholder Must Know
 1. [50 Surprising Statistics Every Healthcare Stakeholder Must Know](https://www.osplabs.com/insights/50-surprising-statistics-every-healthcare-stakeholder-must-know/)
 
-
+## Inspiration from Weina
+2. [Weina Jin, M.D.](https://scholar.google.com/citations?user=uajp-AkAAAAJ&hl=en)
+3. [About Weina](https://weina.me/)
 
 ### 2D medical Imaging 
 1. [FDA cleared AI medical products that are related to radiology and other imaging domains](https://aicentral.acrdsi.org/)
@@ -1261,7 +1263,13 @@ Classification accuracy: The percent of correct classifications made by a model.
 6. [Multi-Class Metrics Made Simple, Part I: Precision and Recall](https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2)
 7. [Classification metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics)
 8. [Activity notebook](https://github.com/udacity/nd320-c4-wearable-data-starter/tree/master/activity-classifier/walkthroughs/activity-classifier/)
-9. 
+
+## Hyperparameter tuning
+1. [Hyperparameter tuning](https://github.com/udacity/nd320-c4-wearable-data-starter/tree/master/activity-classifier/walkthroughs/hyperparameter-tuning/)
+2. [Nested cross validation explained](https://weina.me/nested-cross-validation/)
+3. [Nested Cross Validation: When Cross Validation Isn’t Enough](https://www.elderresearch.com/blog/nested-cross-validation-when-cross-validation-isnt-enough/)
+4. []()
+5. []()
 
 ### ECG Signal Processing
 1. [Database for data](https://physionet.org/about/database/)
