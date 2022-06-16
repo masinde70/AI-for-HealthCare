@@ -1098,7 +1098,7 @@ Here are a few ways to do this.
 2. Check that the total number of unique patients across the splits is equal to the total number of unique patients in the original dataset. This ensures no patient information lost in the splitting and that the counts are correct.
 3. Check that the total number of rows in original dataset should be equal to the sum of rows across all three dataset partitions.
 
-```len(original_df) == len(train_df) + len(val_df) + len(test_df) should evaluate to True
+```len(original_df) == len(train_df) + len(val_df) + len(test_df) should evaluate to True``` 
 
 
 
