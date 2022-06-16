@@ -1055,6 +1055,41 @@ in real-world healthcare data.
 3. [Transformer Architecture](https://arxiv.org/abs/1706.03762)
 4. [EHR](https://eicu-crd.mit.edu/about/eicu/)
 
+## EHR Transformation & Feature Engineering
+
+Encounter: “An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.”
+
+## What is an encounter?
+The definition of an encounter commonly used for EHR records comes from the Health Level Seven International (HL7), the organization that sets the international standards for healthcare data. As the definition states, it is essentially an interaction between a patient and a healthcare professional(s). It usually refers to doctors visits and hospital stays.
+
+## How do we aggregate line level at encounter level?
+1. Create a column list for the columns you would use to group. Likely these would be:
+    - "encounter_id"
+    - "patient_id"
+    -  "principal_diagnosis_code"
+2. Create column list for the other columns not in the grouping
+3. Transform your data into a new dataframe. You can use groupby() and agg() functions for this 
+4. Then you can do a quick inspection of the result by grabbing one of the patient records and to compare the output of the original dataframe and the newly transformed encounter dataframe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Applying AI to Wearable Device Data
 
