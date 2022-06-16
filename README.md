@@ -1071,7 +1071,13 @@ The definition of an encounter commonly used for EHR records comes from the Heal
 3. Transform your data into a new dataframe. You can use groupby() and agg() functions for this 
 4. Then you can do a quick inspection of the result by grabbing one of the patient records and to compare the output of the original dataframe and the newly transformed encounter dataframe.
 
-
+## Resources
+1. [Encounter Definition](Ahttps://www.hl7.org/fhir/encounter-definitions.html)
+2. [Scalable and accurate deep learning with electronic health records](https://www.nature.com/articles/s41746-018-0029-1.pdf)
+3. [Google patent](https://patents.google.com/patent/US20160042124)
+4. [FHIR](https://www.hl7.org/fhir/overview.html)
+5. [longitudinal ehr](https://arxiv.org/search/?query=longitudinal+ehr&searchtype=all&source=header)
+6. [A Bayesian Approach to Modelling Longitudinal Data in Electronic Health Records](https://arxiv.org/pdf/1912.09086.pdf)
 
 
 
