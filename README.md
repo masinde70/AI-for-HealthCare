@@ -1080,8 +1080,25 @@ The definition of an encounter commonly used for EHR records comes from the Heal
 6. [A Bayesian Approach to Modelling Longitudinal Data in Electronic Health Records](https://arxiv.org/pdf/1912.09086.pdf)
 
 
+***Data Leakage:***
+[Data Leakage](https://www.kaggle.com/code/alexisbcook/data-leakage/tutorial)
 
+Inadvertently sharing data between test and training datasets.
 
+Data leakage is a massive problem as your model will perform fantastically during training and fail miserably in production.
+
+An example of where this can occur is when you have a longitudinal dataset and you use different patient encounters across different splits. You may inadvertently leak in information about the patient into your training data that you will be testing on. Essentially giving your model some of the answers. So preventing data leakage is very important to ensure your mode can generalize in production.
+
+## Testing and Validating Dataset Splitting
+It is important to have some ways to assess whether you have split your data right.
+
+Here are a few ways to do this.
+
+1. Assess to make sure that a single patient's data is not in more than one partition to avoid possible data leakage.
+2. Check that the total number of unique patients across the splits is equal to the total number of unique patients in the original dataset. This ensures no patient information lost in the splitting and that the counts are correct.
+3. Check that the total number of rows in original dataset should be equal to the sum of rows across all three dataset partitions.
+
+```len(original_df) == len(train_df) + len(val_df) + len(test_df) should evaluate to True
 
 
 
