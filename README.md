@@ -1100,7 +1100,7 @@ Here are a few ways to do this.
 
 ```len(original_df) == len(train_df) + len(val_df) + len(test_df) should evaluate to True``` 
 
-
+### Common EHR Model Evaluation Metrics
 
 
 
@@ -1270,9 +1270,6 @@ for their clinical utility and make inroads into clinical practice.
 - **Electrode:** Part of an ECG circuit. Conductive pads that make contact with the skin.
 - **Lead:** An electrical potential difference measured across two electrodes of an ECG circuit.
 - **Holder monitor:** A mobile ECG device that can measure continuously for typically 24 - 72 hours.
-
-
-
 
 ### Activity Classification
 n this lesson, we are going to build an activity classifier using data from an accelerometer from a wrist wearable.
