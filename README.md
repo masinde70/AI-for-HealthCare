@@ -1156,6 +1156,53 @@ NOTE: Before we go into the walkthrough I want to note that TF Probability is no
 
         )
     ```
+  * We can use different loss functions such as mean squared error(MSE) or negloglik. Note that if we decide to use the standard MSE metric that the scale or standard deviation will be fixed. Below is code from the regression tutorial for using negative log-likelihood loss, which through minimization is a way to maximize the probability of the continuous labels.
+
+      ```
+        negloglik = lambda y, rv_y: -rv_y.log_prob(y)
+       model.compile(optimizer='adam', loss=negloglik, metrics=[loss_metric])
+     ```
+  * Extracting the mean and standard deviations for each prediction by passing the test dataset to the probability model. Then, we can call mean() or stddev() to extract these tensors.
+     ```
+        yhat = prob_model(x_tst)
+        m = yhat.mean()
+        s = yhat.stddev()
+    ```
+    
+## Model with Epistemic Uncertainty
+* Unknown Unknowns
+* Add Tensorflow Probability [DenseVariational Layer](https://www.tensorflow.org/probability/api_docs/python/tfp/distributions/VariationalGaussianProcess) with prior and posterior functions. 
+  Below are examples adapted from the [Tensorflow Probability Regression tutorial notebook](https://github.com/tensorflow/probability/blob/main/tensorflow_probability/examples/jupyter_notebooks/Probabilistic_Layers_Regression.ipynb).
+
+```
+def posterior_mean_field(kernel_size, bias_size=0, dtype=None):
+  n = kernel_size + bias_size
+  c = np.log(np.expm1(1.))
+  return tf.keras.Sequential([
+      tfp.layers.VariableLayer(2*n, dtype=dtype),
+      tfp.layers.DistributionLambda(lambda t: tfp.distributions.Independent(
+          tfp.distributions.Normal(loc=t[..., :n],
+                                   scale=1e-5 + tf.nn.softplus(c + t[..., n:])),
+          reinterpreted_batch_ndims=1)),
+  ])
+def prior_trainable(kernel_size, bias_size=0, dtype=None):
+  n = kernel_size + bias_size
+  return tf.keras.Sequential([
+      tfp.layers.VariableLayer(n, dtype=dtype),
+      tfp.layers.DistributionLambda(lambda t: tfp.distributions.Independent(
+          tfp.distributions.Normal(loc=t, scale=1),
+          reinterpreted_batch_ndims=1)),
+  ])
+```
+* Here is how the 'posterior_mean_field' and 'prior_trainable' functions are added as arguments to the DenseVariational layer that precedes the DistributionLambda layer we covered earlier.
+
+```
+tf.keras.layers.Dense(75, activation='relu'),
+         tfp.layers.DenseVariational(1+1, posterior_mean_field, prior_trainable),        
+      tfp.layers.DistributionLambda( ....
+```
+## Additional Resources
+[Tensorflow Regression with Probabilistic Layers Tutorial](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html)
 
 
 
