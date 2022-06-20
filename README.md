@@ -1102,11 +1102,60 @@ Here are a few ways to do this.
 
 ### Common EHR Model Evaluation Metrics
 
+- [An ROC curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds.
 
+## Resources
+1. [A note on the evaluation of novel biomarkers: do not rely on integrated discrimination improvement and net reclassification index](https://pubmed.ncbi.nlm.nih.gov/23553436/)
+2. [Brier Score](https://en.wikipedia.org/wiki/Brier_score)
+3. [The Brier score does not evaluate the clinical utility of diagnostic tests or prediction models](https://diagnprognres.biomedcentral.com/articles/10.1186/s41512-017-0020-3)
+4. 
+ 
+## Types of Uncertainty
+* Aleatoric:
+  - Statistical Uncertainty - a natural, random process
+  - Known Unknowns
 
+Aleatoric uncertainty is otherwise known as statistical uncertainty and is known unknowns. This type of uncertainty is inherent, and just a part of the stochasticity that naturally exists. An example is rolling a dice, which will have an element of randomness always to it.
 
+* Epistemic:
+  - Systematic Uncertainty - lack of measurement, knowledge
+  - Unknown Unknowns
+  
 
+Epistemic uncertainty is also known as systemic uncertainty and is unknown unknowns. This type of uncertainty can be improved by adding parameters/features that might measure something in more detail or provide more knowledge.
 
+### Additional Resources
+1. [Uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification)
+
+#### Key Points
+**Building a Basic Uncertainty Estimation Model with Tensorflow Probability**
+  * Using the MPG model from earlier, create uncertainty estimation model with TF Probability.
+  * In particular, we will focus on building a model that accounts for Aleatoric Uncertainty.
+
+NOTE: Before we go into the walkthrough I want to note that TF Probability is not a v1 yet and documentation and standard patterns are evolving. That being said I wanted to expose you to a tool that might be good to have on your radar and this library can abstract away some of the challenging math behind the scenes.
+
+##### Model with Aleatoric Uncertainty
+* Known Unknowns
+* 2 Main Model Changes
+  * Add a second unit to the last dense layer before passing it to Tensorflow Probability layer to model for the predictor y and the heteroscedasticity or unequal scattering of data
+ 
+    ```tf.keras.layers.Dense(1 + 1)```
+  * DistributionLambda is a special Keras layer that uses a Python lambda to construct a distribution based on the layer
+    inputs and the output of the final layer of the model is passed into the loss function. This model will return a 
+    distribution for both mean and standard deviation. The 'loc' argument is the mean and is sampled across the normal 
+    distribution as well as the 'scale' argument which is the standard deviation and in this case, is a slightly
+    increasing with a positive slope. Important to note here is that we have prior knowledge that the relationship 
+    between the label and data is linear. However, for a more dynamic, flexible approach you can use the 
+    [VariationalGaussianProcess Layer](https://www.tensorflow.org/probability/api_docs/python/tfp/distributions/VariationalGaussianProcess).
+    This is beyond the scope of this course but as mentioned can add more flexibility.
+    ```
+    tfp.layers.DistributionLambda(  
+        lambda t:tfp.distributions.Normal(
+            loc=t[..., :1],
+            scale=1e-3 + tf.math.softplus(0.1 * t[...,1:])
+
+        )
+    ```
 
 
 
