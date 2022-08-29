@@ -424,7 +424,7 @@ Some things that distinguish NIFTI from DICOM, though are:
 1. [NIFTI File](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields)
 2. [good dicom](https://dicom.innolitics.com/ciods/ct-image/patient)
 3. [nifti tutorial](https://nipy.org/nibabel/coordinate_systems.html)
-4. [elements in DICOM’s ImagePixel module.](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.6.3.html#table_C.7-11c)
+4. [elements in DICOM’s ImagePixel module](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.6.3.html#table_C.7-11c)
 
 ## Cancer Dataset sources
 1. [Cancer Dataset sources](https://www.acrdsi.org/DSI-Services/Dataset-Directory)
@@ -555,7 +555,7 @@ Hausdorff distance will assign similar scores to result that matches up with all
 
 ## Books
 1. [deep learning with a special section on computer vision by Alexander Smola et al. Alexander has a strong history of publications on machine learning algorithms and statistical analysis and is presently serving as a director for machine learning at Amazon Web Services in Palo Alto, CA](https://d2l.ai/)
-2. [a book on general concepts of machine learning by Christopher Bishop et al. Christopher has a distinguished career as a machine learning scientist and presently is in charge of Microsoft Research lab in Cambridge, UK, where I had the honor to work on project [InnerEye for several years](https://www.microsoft.com/en-us/research/project/medical-image-analysis/).](https://www.mbmlbook.com/)
+2. [a book on general concepts of machine learning by Christopher Bishop et al. Christopher has a distinguished career as a machine learning scientist and presently is in charge of Microsoft Research lab in Cambridge, UK, where I had the honor to work on project InnerEye for several years](https://www.microsoft.com/en-us/research/project/medical-image-analysis/).](https://www.mbmlbook.com/)
 3. [Interactive Organ Segmentation using Graph Cuts](https://cs.uwaterloo.ca/~yboykov/Papers/miccai00.pdf)
 4. [Probabilistic Graphical Models for Medical Image Segmentation](https://www.researchgate.net/publication/280664591_Probabilistic_Graphical_Models_for_Medical_Image_Segmentation)
 5. [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
